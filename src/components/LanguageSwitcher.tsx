@@ -3,6 +3,7 @@
 import { useRouter, usePathname } from "next/navigation";
 import type { Locale } from "@/lib/i18n/config";
 import { locales } from "@/lib/i18n/config";
+import { setLocaleCookie } from "@/lib/cookies";
 
 const localeLabels: Record<Locale, string> = {
   es: "ES",
@@ -21,7 +22,7 @@ export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
   function switchLocale(locale: Locale) {
     const segments = pathname.split("/");
     segments[1] = locale;
-    document.cookie = `NEXT_LOCALE=${locale};path=/;max-age=31536000`;
+    setLocaleCookie(locale);
     router.push(segments.join("/") || `/${locale}`);
   }
 

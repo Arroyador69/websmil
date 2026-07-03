@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { defaultLocale, isValidLocale, locales } from "@/lib/i18n/config";
+import { defaultLocale, isValidLocale } from "@/lib/i18n/config";
 
 function getPreferredLocale(request: NextRequest): string {
   const cookieLocale = request.cookies.get("NEXT_LOCALE")?.value;
