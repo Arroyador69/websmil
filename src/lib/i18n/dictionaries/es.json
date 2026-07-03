@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "WebsMil — Webs con dashboard para empresas",
+    "description": "Webs profesionales con panel de control integrado. Ahorra hasta un 30% en tiempo y organización de tu negocio."
+  },
+  "nav": {
+    "benefits": "Beneficios",
+    "pricing": "Precios",
+    "howItWorks": "Cómo funciona",
+    "faq": "FAQ",
+    "cta": "Solicitar info"
+  },
+  "hero": {
+    "badge": "Webs + Dashboard para empresas",
+    "title": "Organiza tu negocio con una web y dashboard a medida",
+    "subtitle": "Creamos webs profesionales con panel de control integrado para que gestiones clientes, reservas, tareas y métricas desde un solo lugar.",
+    "stat": "Hasta un 30% menos de tiempo",
+    "statLabel": "en organización y gestión diaria",
+    "ctaPrimary": "Ver planes",
+    "ctaSecondary": "Solicitar información"
+  },
+  "benefits": {
+    "title": "Por qué WebsMil",
+    "subtitle": "No solo una web bonita: una herramienta que trabaja por ti cada día.",
+    "items": [
+      {
+        "title": "Todo en un solo panel",
+        "description": "Clientes, citas, pedidos y estadísticas accesibles desde tu dashboard personalizado."
+      },
+      {
+        "title": "Ahorro real de tiempo",
+        "description": "Automatiza tareas repetitivas y reduce hasta un 30% el tiempo de gestión administrativa."
+      },
+      {
+        "title": "Lista para vender",
+        "description": "Diseño profesional, SEO optimizado y adaptada a móvil desde el primer día."
+      },
+      {
+        "title": "Crece contigo",
+        "description": "Empieza con lo esencial y amplía módulos según crece tu negocio."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "subtitle": "De la solicitud a tu web en funcionamiento, en pocos pasos.",
+    "steps": [
+      {
+        "title": "Elige tu plan",
+        "description": "Selecciona el paquete que mejor encaja con tu negocio y solicita información."
+      },
+      {
+        "title": "Cuéntanos tu negocio",
+        "description": "Te contactamos para entender tus necesidades, sector y funcionalidades clave."
+      },
+      {
+        "title": "Diseño y dashboard",
+        "description": "Montamos tu web y configuramos el panel con las herramientas que necesitas."
+      },
+      {
+        "title": "Lanzamiento y soporte",
+        "description": "Publicamos tu web, te formamos y te acompañamos durante el periodo de soporte."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planes transparentes",
+    "subtitle": "Tres niveles claros. Sin sorpresas. Pago único por la web.",
+    "popular": "Más popular",
+    "currency": "€",
+    "oneTime": "pago único",
+    "cta": "Solicitar este plan",
+    "moreInfo": "Más información",
+    "plans": {
+      "essential": {
+        "name": "Esencial",
+        "price": 350,
+        "description": "Ideal para autónomos y pequeños negocios que necesitan presencia online y control básico.",
+        "features": [
+          "Landing page profesional de 1 página",
+          "Dashboard básico con panel de control",
+          "Diseño responsive (móvil y escritorio)",
+          "Formulario de contacto integrado",
+          "SEO básico (meta tags, sitemap, velocidad)",
+          "SSL + hosting incluido 1 año",
+          "3 módulos dashboard: contactos, estadísticas y calendario",
+          "Entrega en 7-10 días laborables",
+          "Soporte 30 días post-lanzamiento"
+        ]
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": 700,
+        "description": "Para empresas que quieren gestionar clientes, contenido y operaciones desde su web.",
+        "features": [
+          "Todo lo incluido en Esencial",
+          "Web de hasta 5 páginas personalizadas",
+          "Dashboard con CRM básico (clientes y tareas)",
+          "Sección blog o noticias",
+          "Panel admin completo para editar contenido",
+          "Newsletter e integración email",
+          "SEO avanzado y Google Analytics",
+          "8 módulos dashboard configurables",
+          "Entrega en 12-15 días laborables",
+          "Soporte 60 días post-lanzamiento"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": 1200,
+        "description": "Solución completa con reservas, automatizaciones e integraciones para negocios en crecimiento.",
+        "features": [
+          "Todo lo incluido en Profesional",
+          "Web de hasta 10-15 páginas a medida",
+          "Dashboard personalizado multi-módulo",
+          "Sistema de reservas o citas online",
+          "Catálogo de productos o servicios",
+          "Automatizaciones (emails, recordatorios)",
+          "Multi-usuario con roles y permisos",
+          "Integraciones: WhatsApp, Google Calendar",
+          "Analytics avanzado e informes",
+          "Entrega en 3-4 semanas",
+          "Soporte 90 días post-lanzamiento"
+        ]
+      }
+    }
+  },
+  "form": {
+    "title": "Solicita más información",
+    "subtitle": "Déjanos tu email y te contactamos en menos de 24 horas.",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Email",
+    "emailPlaceholder": "tu@empresa.com",
+    "company": "Empresa (opcional)",
+    "companyPlaceholder": "Nombre de tu negocio",
+    "message": "Mensaje (opcional)",
+    "messagePlaceholder": "Cuéntanos qué necesitas...",
+    "plan": "Plan de interés",
+    "planOptions": {
+      "essential": "Esencial — 350€",
+      "professional": "Profesional — 700€",
+      "premium": "Premium — 1.200€",
+      "general": "Aún no lo sé / Quiero asesoramiento"
+    },
+    "submit": "Enviar solicitud",
+    "submitting": "Enviando...",
+    "privacy": "Al enviar aceptas que contactemos contigo sobre tu solicitud. No compartimos tus datos con terceros.",
+    "successTitle": "¡Solicitud recibida!",
+    "successMessage": "Hemos guardado tu solicitud y te hemos enviado un email de confirmación. Te contactaremos en menos de 24 horas.",
+    "errorMessage": "Ha ocurrido un error. Inténtalo de nuevo o escríbenos directamente."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Qué incluye el dashboard?",
+        "answer": "Un panel privado donde gestionas tu negocio: clientes, citas, pedidos, estadísticas y más, según el plan elegido. Accesible desde cualquier dispositivo."
+      },
+      {
+        "question": "¿Cuánto tarda la entrega?",
+        "answer": "Entre 7 y 10 días para Esencial, 12-15 días para Profesional y 3-4 semanas para Premium, una vez recibamos tu contenido."
+      },
+      {
+        "question": "¿Puedo ampliar el plan después?",
+        "answer": "Sí. Puedes empezar con Esencial y añadir módulos o migrar a un plan superior cuando lo necesites."
+      },
+      {
+        "question": "¿El dominio y hosting están incluidos?",
+        "answer": "Sí, el primer año de hosting y certificado SSL están incluidos en todos los planes. Te ayudamos con el dominio."
+      },
+      {
+        "question": "¿Cómo funciona el ahorro del 30%?",
+        "answer": "Centralizamos en un solo panel tareas que normalmente requieren varias herramientas (Excel, WhatsApp, email, calendarios), reduciendo tiempo de gestión."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Webs con dashboard para empresas que quieren crecer.",
+    "rights": "Todos los derechos reservados.",
+    "contact": "Contacto"
+  },
+  "email": {
+    "subject": "Confirmación de solicitud — WebsMil",
+    "greeting": "Hola",
+    "body": "Hemos recibido tu solicitud para el plan",
+    "planLabel": "Plan seleccionado",
+    "nextSteps": "Te contactaremos en menos de 24 horas para conocer tu negocio y preparar una propuesta personalizada.",
+    "thanks": "Gracias por confiar en WebsMil."
+  }
+}

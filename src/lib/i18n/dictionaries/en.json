@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "WebsMil — Business websites with dashboard",
+    "description": "Professional websites with integrated control panel. Save up to 30% on time and business organization."
+  },
+  "nav": {
+    "benefits": "Benefits",
+    "pricing": "Pricing",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "cta": "Request info"
+  },
+  "hero": {
+    "badge": "Websites + Dashboard for businesses",
+    "title": "Organize your business with a custom website and dashboard",
+    "subtitle": "We build professional websites with integrated control panels so you can manage clients, bookings, tasks and metrics from one place.",
+    "stat": "Up to 30% less time",
+    "statLabel": "on daily organization and management",
+    "ctaPrimary": "View plans",
+    "ctaSecondary": "Request information"
+  },
+  "benefits": {
+    "title": "Why WebsMil",
+    "subtitle": "Not just a beautiful website — a tool that works for you every day.",
+    "items": [
+      {
+        "title": "Everything in one panel",
+        "description": "Clients, appointments, orders and statistics accessible from your custom dashboard."
+      },
+      {
+        "title": "Real time savings",
+        "description": "Automate repetitive tasks and reduce administrative management time by up to 30%."
+      },
+      {
+        "title": "Ready to sell",
+        "description": "Professional design, optimized SEO and mobile-ready from day one."
+      },
+      {
+        "title": "Grows with you",
+        "description": "Start with the essentials and add modules as your business grows."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "subtitle": "From request to live website in a few simple steps.",
+    "steps": [
+      {
+        "title": "Choose your plan",
+        "description": "Select the package that best fits your business and request information."
+      },
+      {
+        "title": "Tell us about your business",
+        "description": "We contact you to understand your needs, industry and key features."
+      },
+      {
+        "title": "Design and dashboard",
+        "description": "We build your website and configure the panel with the tools you need."
+      },
+      {
+        "title": "Launch and support",
+        "description": "We publish your site, train you and support you during the support period."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Transparent pricing",
+    "subtitle": "Three clear tiers. No surprises. One-time payment for the website.",
+    "popular": "Most popular",
+    "currency": "€",
+    "oneTime": "one-time",
+    "cta": "Request this plan",
+    "moreInfo": "More information",
+    "plans": {
+      "essential": {
+        "name": "Essential",
+        "price": 350,
+        "description": "Ideal for freelancers and small businesses needing online presence and basic control.",
+        "features": [
+          "Professional 1-page landing website",
+          "Basic dashboard with control panel",
+          "Responsive design (mobile and desktop)",
+          "Integrated contact form",
+          "Basic SEO (meta tags, sitemap, speed)",
+          "SSL + 1 year hosting included",
+          "3 dashboard modules: contacts, stats and calendar",
+          "Delivery in 7-10 business days",
+          "30 days post-launch support"
+        ]
+      },
+      "professional": {
+        "name": "Professional",
+        "price": 700,
+        "description": "For businesses that want to manage clients, content and operations from their website.",
+        "features": [
+          "Everything in Essential",
+          "Website with up to 5 custom pages",
+          "Dashboard with basic CRM (clients and tasks)",
+          "Blog or news section",
+          "Full admin panel to edit content",
+          "Newsletter and email integration",
+          "Advanced SEO and Google Analytics",
+          "8 configurable dashboard modules",
+          "Delivery in 12-15 business days",
+          "60 days post-launch support"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": 1200,
+        "description": "Complete solution with bookings, automations and integrations for growing businesses.",
+        "features": [
+          "Everything in Professional",
+          "Custom website with up to 10-15 pages",
+          "Fully customized multi-module dashboard",
+          "Online booking or appointment system",
+          "Product or service catalog",
+          "Automations (emails, reminders)",
+          "Multi-user with roles and permissions",
+          "Integrations: WhatsApp, Google Calendar",
+          "Advanced analytics and reports",
+          "Delivery in 3-4 weeks",
+          "90 days post-launch support"
+        ]
+      }
+    }
+  },
+  "form": {
+    "title": "Request more information",
+    "subtitle": "Leave your email and we'll contact you within 24 hours.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@company.com",
+    "company": "Company (optional)",
+    "companyPlaceholder": "Your business name",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Tell us what you need...",
+    "plan": "Plan of interest",
+    "planOptions": {
+      "essential": "Essential — €350",
+      "professional": "Professional — €700",
+      "premium": "Premium — €1,200",
+      "general": "Not sure yet / I want advice"
+    },
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "privacy": "By submitting you agree to be contacted about your request. We don't share your data with third parties.",
+    "successTitle": "Request received!",
+    "successMessage": "We've saved your request and sent you a confirmation email. We'll contact you within 24 hours.",
+    "errorMessage": "Something went wrong. Please try again or contact us directly."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What's included in the dashboard?",
+        "answer": "A private panel where you manage your business: clients, appointments, orders, statistics and more, depending on your plan. Accessible from any device."
+      },
+      {
+        "question": "How long does delivery take?",
+        "answer": "7-10 days for Essential, 12-15 days for Professional and 3-4 weeks for Premium, once we receive your content."
+      },
+      {
+        "question": "Can I upgrade later?",
+        "answer": "Yes. You can start with Essential and add modules or upgrade to a higher plan when needed."
+      },
+      {
+        "question": "Is domain and hosting included?",
+        "answer": "Yes, the first year of hosting and SSL certificate are included in all plans. We help you with the domain."
+      },
+      {
+        "question": "How does the 30% savings work?",
+        "answer": "We centralize in one panel tasks that normally require multiple tools (Excel, WhatsApp, email, calendars), reducing management time."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Websites with dashboard for businesses that want to grow.",
+    "rights": "All rights reserved.",
+    "contact": "Contact"
+  },
+  "email": {
+    "subject": "Request confirmation — WebsMil",
+    "greeting": "Hello",
+    "body": "We've received your request for the",
+    "planLabel": "Selected plan",
+    "nextSteps": "We'll contact you within 24 hours to learn about your business and prepare a personalized proposal.",
+    "thanks": "Thank you for trusting WebsMil."
+  }
+}

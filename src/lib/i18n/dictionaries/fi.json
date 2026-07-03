@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "WebsMil — Yritysverkkosivut hallintapaneelilla",
+    "description": "Ammattimaiset verkkosivut integroidulla hallintapaneelilla. Säästä jopa 30 % aikaa ja organisaatiossa."
+  },
+  "nav": {
+    "benefits": "Hyödyt",
+    "pricing": "Hinnat",
+    "howItWorks": "Miten se toimii",
+    "faq": "UKK",
+    "cta": "Pyydä tietoja"
+  },
+  "hero": {
+    "badge": "Verkkosivut + hallintapaneeli yrityksille",
+    "title": "Järjestä liiketoimintasi räätälöidyllä verkkosivulla ja paneelilla",
+    "subtitle": "Rakennamme ammattimaisia verkkosivuja integroiduilla hallintapaneeleilla, jotta voit hallita asiakkaita, varauksia, tehtäviä ja mittareita yhdestä paikasta.",
+    "stat": "Jopa 30 % vähemmän aikaa",
+    "statLabel": "päivittäiseen organisointiin ja hallintaan",
+    "ctaPrimary": "Katso paketit",
+    "ctaSecondary": "Pyydä lisätietoja"
+  },
+  "benefits": {
+    "title": "Miksi WebsMil",
+    "subtitle": "Ei vain kaunis verkkosivu — työkalu, joka työskentelee puolestasi joka päivä.",
+    "items": [
+      {
+        "title": "Kaikki yhdessä paneelissa",
+        "description": "Asiakkaat, tapaamiset, tilaukset ja tilastot käytettävissä räätälöidystä hallintapaneelistasi."
+      },
+      {
+        "title": "Todellinen ajan säästö",
+        "description": "Automatisoi toistuvat tehtävät ja vähennä hallinnollisen työn aikaa jopa 30 %."
+      },
+      {
+        "title": "Valmis myyntiin",
+        "description": "Ammattimainen design, optimoitu SEO ja mobiiliystävällinen ensimmäisestä päivästä."
+      },
+      {
+        "title": "Kasvaa kanssasi",
+        "description": "Aloita olennaisilla ja lisää moduuleja liiketoimintasi kasvaessa."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Miten se toimii",
+    "subtitle": "Pyynnöstä verkkosivuksi muutamassa yksinkertaisessa vaiheessa.",
+    "steps": [
+      {
+        "title": "Valitse pakettisi",
+        "description": "Valitse liiketoimintaasi parhaiten sopiva paketti ja pyydä lisätietoja."
+      },
+      {
+        "title": "Kerro liiketoiminnastasi",
+        "description": "Otamme yhteyttä ymmärtääksemme tarpeesi, toimialasi ja keskeiset ominaisuudet."
+      },
+      {
+        "title": "Design ja paneeli",
+        "description": "Rakennamme verkkosivusi ja konfiguroimme paneelin tarvitsemillasi työkaluilla."
+      },
+      {
+        "title": "Julkaisu ja tuki",
+        "description": "Julkaisemme sivusi, koulutamme sinut ja tuemme tukijakson ajan."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Läpinäkyvät hinnat",
+    "subtitle": "Kolme selkeää tasoa. Ei yllätyksiä. Kertamaksu verkkosivusta.",
+    "popular": "Suosituin",
+    "currency": "€",
+    "oneTime": "kertamaksu",
+    "cta": "Pyydä tätä pakettia",
+    "moreInfo": "Lisätietoja",
+    "plans": {
+      "essential": {
+        "name": "Perus",
+        "price": 350,
+        "description": "Ihanteellinen yrittäjille ja pienille yrityksille, jotka tarvitsevat verkkonäkyvyyttä ja perushallintaa.",
+        "features": [
+          "Ammattimainen 1-sivuinen laskeutumissivu",
+          "Perushallintapaneeli ohjauspaneelilla",
+          "Responsiivinen design (mobiili ja työpöytä)",
+          "Integroitu yhteydenottolomake",
+          "Perus-SEO (meta-tagit, sivukartta, nopeus)",
+          "SSL + 1 vuoden hosting sisältyy",
+          "3 paneelimoduulia: yhteystiedot, tilastot ja kalenteri",
+          "Toimitus 7-10 arkipäivässä",
+          "30 päivän tuki julkaisun jälkeen"
+        ]
+      },
+      "professional": {
+        "name": "Ammattilainen",
+        "price": 700,
+        "description": "Yrityksille, jotka haluavat hallita asiakkaita, sisältöä ja toimintoja verkkosivultaan.",
+        "features": [
+          "Kaikki Perus-paketista",
+          "Verkkosivu jopa 5 räätälöidyllä sivulla",
+          "Hallintapaneeli perus-CRM:llä (asiakkaat ja tehtävät)",
+          "Blogi- tai uutisosio",
+          "Täysi admin-paneeli sisällön muokkaamiseen",
+          "Uutiskirje ja sähköposti-integraatio",
+          "Edistynyt SEO ja Google Analytics",
+          "8 konfiguroitavaa paneelimoduulia",
+          "Toimitus 12-15 arkipäivässä",
+          "60 päivän tuki julkaisun jälkeen"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": 1200,
+        "description": "Täydellinen ratkaisu varauksilla, automatisoinneilla ja integraatioilla kasvaville yrityksille.",
+        "features": [
+          "Kaikki Ammattilainen-paketista",
+          "Räätälöity verkkosivu jopa 10-15 sivulla",
+          "Täysin räätälöity monimoduulinen paneeli",
+          "Verkkovaraus- tai ajanvarausjärjestelmä",
+          "Tuote- tai palveluluettelo",
+          "Automatisoinnit (sähköpostit, muistutukset)",
+          "Monikäyttäjä rooleilla ja oikeuksilla",
+          "Integraatiot: WhatsApp, Google Calendar",
+          "Edistynyt analytiikka ja raportit",
+          "Toimitus 3-4 viikossa",
+          "90 päivän tuki julkaisun jälkeen"
+        ]
+      }
+    }
+  },
+  "form": {
+    "title": "Pyydä lisätietoja",
+    "subtitle": "Jätä sähköpostisi ja otamme yhteyttä 24 tunnin kuluessa.",
+    "name": "Nimi",
+    "namePlaceholder": "Nimesi",
+    "email": "Sähköposti",
+    "emailPlaceholder": "sinä@yritys.fi",
+    "company": "Yritys (valinnainen)",
+    "companyPlaceholder": "Yrityksesi nimi",
+    "message": "Viesti (valinnainen)",
+    "messagePlaceholder": "Kerro mitä tarvitset...",
+    "plan": "Kiinnostava paketti",
+    "planOptions": {
+      "essential": "Perus — 350 €",
+      "professional": "Ammattilainen — 700 €",
+      "premium": "Premium — 1 200 €",
+      "general": "En ole varma / Haluan neuvontaa"
+    },
+    "submit": "Lähetä pyyntö",
+    "submitting": "Lähetetään...",
+    "privacy": "Lähettämällä hyväksyt, että otamme sinuun yhteyttä pyyntösi tiimoilta. Emme jaa tietojasi kolmansille osapuolille.",
+    "successTitle": "Pyyntö vastaanotettu!",
+    "successMessage": "Olemme tallentaneet pyyntösi ja lähettäneet vahvistussähköpostin. Otamme yhteyttä 24 tunnin kuluessa.",
+    "errorMessage": "Jokin meni pieleen. Yritä uudelleen tai ota meihin suoraan yhteyttä."
+  },
+  "faq": {
+    "title": "Usein kysytyt kysymykset",
+    "items": [
+      {
+        "question": "Mitä hallintapaneeli sisältää?",
+        "answer": "Yksityinen paneeli, jossa hallitset liiketoimintaasi: asiakkaat, tapaamiset, tilaukset, tilastot ja muuta pakettisi mukaan. Käytettävissä millä tahansa laitteella."
+      },
+      {
+        "question": "Kuinka kauan toimitus kestää?",
+        "answer": "7-10 päivää Perus-paketille, 12-15 päivää Ammattilainen-paketille ja 3-4 viikkoa Premium-paketille, kun olemme saaneet sisältösi."
+      },
+      {
+        "question": "Voinko päivittää pakettia myöhemmin?",
+        "answer": "Kyllä. Voit aloittaa Perus-paketilla ja lisätä moduuleja tai siirtyä korkeampaan pakettiin tarvittaessa."
+      },
+      {
+        "question": "Sisältyvätkö domain ja hosting?",
+        "answer": "Kyllä, ensimmäinen vuosi hostingia ja SSL-sertifikaatti sisältyvät kaikkiin paketteihin. Autamme domainin kanssa."
+      },
+      {
+        "question": "Miten 30 % säästö toimii?",
+        "answer": "Keskittämme yhteen paneeliin tehtävät, jotka normaalisti vaativat useita työkaluja (Excel, WhatsApp, sähköposti, kalenterit), vähentäen hallintaaikaa."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Verkkosivut hallintapaneelilla yrityksille, jotka haluavat kasvaa.",
+    "rights": "Kaikki oikeudet pidätetään.",
+    "contact": "Yhteystiedot"
+  },
+  "email": {
+    "subject": "Pyynnön vahvistus — WebsMil",
+    "greeting": "Hei",
+    "body": "Olemme vastaanottaneet pyyntösi paketista",
+    "planLabel": "Valittu paketti",
+    "nextSteps": "Otamme yhteyttä 24 tunnin kuluessa tutustuaksemme liiketoimintaasi ja valmistellaksemme henkilökohtaisen ehdotuksen.",
+    "thanks": "Kiitos luottamuksesta WebsMiliin."
+  }
+}
