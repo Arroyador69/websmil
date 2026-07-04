@@ -9,6 +9,7 @@
     "howItWorks": "Miten se toimii",
     "showcase": "Paneeli",
     "faq": "UKK",
+    "billing": "Laskutus",
     "cta": "Pyydä tietoja"
   },
   "hero": {
@@ -153,6 +154,18 @@
     "subtitle": "Kerro tarpeistasi ja valmistelemme henkilökohtaisen tarjouksen 24 tunnin kuluessa. Ilman sitoumusta.",
     "button": "Pyydä ilmaista tietoa"
   },
+  "billing": {
+    "label": "Laskutuksesta",
+    "title": "Laskutuksesta",
+    "intro": "Noudatamme töissämme ennakkomaksukäytäntöä, jossa työ veloitetaan ennen projektin luovuttamista asiakkaalle, kun tarjous on hyväksytty. Tällä sitoutetaan sekä tilaaja, että toimittaja projektiin.",
+    "basicsTitle": "Perusteet",
+    "basics": "Heti projektin alkaessa, varaamme kalenteristani aikaa kyseiselle työlle. Jos asiakas peruu projektin kesken tai katoaa, voimme menettää mahdollisuuden ottaa muita töitä samalle ajalle. Siksi ennakkomaksu toimii varausmaksuna, joka varmistaa, että asiakas on sitoutunut projektiin.",
+    "points": [
+      "Ennakkomaksu tarjouksen hyväksynnän jälkeen",
+      "Sitouttaa sekä tilaajan että toimittajan",
+      "Varaa ajan projektillesi kalenterista"
+    ]
+  },
   "form": {
     "title": "Pyydä lisätietoja",
     "subtitle": "Jätä sähköpostisi ja otamme yhteyttä 24 tunnin kuluessa.",
@@ -196,6 +209,10 @@
       {
         "question": "Sisältyvätkö domain ja hosting?",
         "answer": "Kyllä, ensimmäinen vuosi hostingia ja SSL-sertifikaatti sisältyvät kaikkiin paketteihin. Autamme domainin kanssa. Toisesta vuodesta alkaen hosting maksaa noin 12–17 €/kk ja domainin uusiminen noin 10–15 €/vuosi (riippuen päätteestä, esim. .fi tai .com). Voit jatkaa kanssamme tai siirtää sivuston omaan hostingiisi — kaikki jää sinulle."
+      },
+      {
+        "question": "Miten laskutus toimii?",
+        "answer": "Noudatamme ennakkomaksukäytäntöä: työ veloitetaan ennen projektin luovuttamista, kun tarjous on hyväksytty. Heti projektin alkaessa varaamme kalenterista aikaa kyseiselle työlle. Ennakkomaksu toimii varausmaksuna, joka sitoo sekä tilaajan että toimittajan projektiin ja varmistaa asiakkaan sitoutumisen."
       },
       {
         "question": "Miten 30 % säästö toimii?",

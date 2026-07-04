@@ -9,6 +9,7 @@
     "howItWorks": "How it works",
     "showcase": "Dashboard",
     "faq": "FAQ",
+    "billing": "Billing",
     "cta": "Request info"
   },
   "hero": {
@@ -153,6 +154,18 @@
     "subtitle": "Tell us what you need and we'll prepare a personalised proposal within 24 hours. No commitment.",
     "button": "Request free information"
   },
+  "billing": {
+    "label": "Billing",
+    "title": "About billing",
+    "intro": "We follow an advance payment policy: work is invoiced before the project is delivered to the client, once the proposal has been accepted. This commits both the client and the supplier to the project.",
+    "basicsTitle": "Basics",
+    "basics": "As soon as the project begins, we reserve time in our calendar for that work. If the client cancels mid-project or disappears, we may lose the opportunity to take on other work for the same period. That is why the advance payment acts as a reservation fee that ensures the client is committed to the project.",
+    "points": [
+      "Advance payment after proposal acceptance",
+      "Commits both client and supplier",
+      "Reserves your slot in our calendar"
+    ]
+  },
   "form": {
     "title": "Request more information",
     "subtitle": "Leave your email and we'll contact you within 24 hours.",
@@ -196,6 +209,10 @@
       {
         "question": "Is domain and hosting included?",
         "answer": "Yes, the first year of hosting and SSL certificate are included in all plans. We help you with the domain. From the second year onwards, hosting costs approximately €12–17/month and domain renewal around €10–15/year (depending on extension, e.g. .com or .fi). You can stay with us or move the site to your own hosting — everything remains yours."
+      },
+      {
+        "question": "How does billing work?",
+        "answer": "We use advance payment: work is invoiced before project delivery, once the proposal is accepted. When the project starts we reserve calendar time for your work. The advance acts as a reservation that commits both parties and ensures your commitment to the project."
       },
       {
         "question": "How does the 30% savings work?",

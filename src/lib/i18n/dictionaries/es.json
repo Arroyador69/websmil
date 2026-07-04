@@ -9,6 +9,7 @@
     "howItWorks": "Cómo funciona",
     "showcase": "Dashboard",
     "faq": "FAQ",
+    "billing": "Facturación",
     "cta": "Solicitar info"
   },
   "hero": {
@@ -153,6 +154,18 @@
     "subtitle": "Cuéntanos qué necesitas y te preparamos una propuesta personalizada en menos de 24 horas. Sin compromiso.",
     "button": "Solicitar información gratis"
   },
+  "billing": {
+    "label": "Facturación",
+    "title": "Sobre la facturación",
+    "intro": "Aplicamos una política de pago anticipado: el trabajo se factura antes de entregar el proyecto al cliente, una vez aceptada la propuesta. Así se comprometen tanto el cliente como el proveedor con el proyecto.",
+    "basicsTitle": "Fundamentos",
+    "basics": "En cuanto comienza el proyecto, reservamos tiempo en nuestro calendario para ese trabajo. Si el cliente cancela a mitad de camino o desaparece, podemos perder la oportunidad de aceptar otros trabajos en ese mismo periodo. Por eso el pago anticipado funciona como una reserva que garantiza el compromiso del cliente con el proyecto.",
+    "points": [
+      "Pago anticipado tras aceptar la propuesta",
+      "Compromete a cliente y proveedor",
+      "Reserva tu hueco en nuestro calendario"
+    ]
+  },
   "form": {
     "title": "Solicita más información",
     "subtitle": "Déjanos tu email y te contactamos en menos de 24 horas.",
@@ -196,6 +209,10 @@
       {
         "question": "¿El dominio y hosting están incluidos?",
         "answer": "Sí, el primer año de hosting y certificado SSL están incluidos en todos los planes. Te ayudamos con el dominio. A partir del segundo año, el hosting cuesta aproximadamente 12–17 €/mes y la renovación del dominio unos 10–15 €/año (según extensión, p. ej. .es o .com). Puedes continuar con nosotros o trasladar la web a tu propio hosting — todo queda en tu propiedad."
+      },
+      {
+        "question": "¿Cómo funciona la facturación?",
+        "answer": "Aplicamos pago anticipado: el trabajo se factura antes de entregar el proyecto, una vez aceptada la propuesta. Al iniciar reservamos tiempo en nuestro calendario. El anticipo funciona como reserva que compromete a ambas partes y garantiza tu compromiso con el proyecto."
       },
       {
         "question": "¿Cómo funciona el ahorro del 30%?",

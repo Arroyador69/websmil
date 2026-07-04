@@ -13,6 +13,7 @@ export function Header({ dict, locale }: HeaderProps) {
     { href: "#benefits", label: dict.nav.benefits },
     { href: "#showcase", label: dict.nav.showcase },
     { href: "#pricing", label: dict.nav.pricing },
+    { href: "#billing", label: dict.nav.billing },
     { href: "#how-it-works", label: dict.nav.howItWorks },
     { href: "#faq", label: dict.nav.faq },
   ];
