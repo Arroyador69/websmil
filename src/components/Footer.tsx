@@ -10,6 +10,7 @@ interface FooterProps {
 export function Footer({ dict, locale }: FooterProps) {
   const links = [
     { href: "#pricing", label: dict.nav.pricing },
+    { href: "#portfolio", label: dict.nav.portfolio },
     { href: "#services", label: dict.nav.services },
     { href: "#billing", label: dict.nav.billing },
     { href: "#faq", label: dict.nav.faq },

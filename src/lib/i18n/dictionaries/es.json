@@ -11,6 +11,7 @@
     "faq": "FAQ",
     "billing": "Facturación",
     "services": "Servicios",
+    "portfolio": "Referencias",
     "cta": "Solicitar info"
   },
   "hero": {
@@ -281,6 +282,34 @@
         "answer": "Centralizamos en un solo panel tareas que normalmente requieren varias herramientas (Excel, WhatsApp, email, calendarios), reduciendo tiempo de gestión."
       }
     ]
+  },
+  "portfolio": {
+    "label": "Referencias",
+    "title": "Proyectos que hemos desarrollado",
+    "subtitle": "Webs reales con panel de gestión, reservas y diseño a medida. Haz clic para visitar cada proyecto.",
+    "visitSite": "Visitar web",
+    "shotTypes": {
+      "landing": "Landing page",
+      "dashboard": "Panel admin",
+      "web": "Web"
+    },
+    "projects": {
+      "delfincheckin": {
+        "name": "Delfín Check-in",
+        "description": "Software SaaS de gestión hotelera: reservas, check-in digital, calculadora de costes y exportación fiscal — todo desde un panel profesional.",
+        "tags": ["SaaS", "Hostelería", "Dashboard"]
+      },
+      "mario": {
+        "name": "Mario Personal Trainer",
+        "description": "Web premium para entrenador personal con reservas online, calendario de entrenos, facturación y CMS para editar la landing sin código.",
+        "tags": ["Fitness", "Reservas", "CMS"]
+      },
+      "rafa": {
+        "name": "Rafa Romera",
+        "description": "Web de artista con biografía, integración Spotify, estadísticas de oyentes y diseño oscuro elegante.",
+        "tags": ["Artista", "Música", "Web"]
+      }
+    }
   },
   "footer": {
     "tagline": "Webs con dashboard para empresas que quieren crecer.",

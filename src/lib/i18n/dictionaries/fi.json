@@ -11,6 +11,7 @@
     "faq": "UKK",
     "billing": "Laskutus",
     "services": "Lisäpalvelut",
+    "portfolio": "Referenssit",
     "cta": "Pyydä tietoja"
   },
   "hero": {
@@ -304,6 +305,34 @@
         "answer": "Keskittämme yhteen paneeliin tehtävät, jotka normaalisti vaativat useita työkaluja (Excel, WhatsApp, sähköposti, kalenterit), vähentäen hallintaaikaa."
       }
     ]
+  },
+  "portfolio": {
+    "label": "Referenssit",
+    "title": "Tekemämme projektit",
+    "subtitle": "Oikeita verkkosivuja hallintapaneeleilla, varauksilla ja räätälöidyllä designilla. Klikkaa vieraillaksesi kussakin projektissa.",
+    "visitSite": "Vieraile sivustolla",
+    "shotTypes": {
+      "landing": "Etusivu",
+      "dashboard": "Hallintapaneeli",
+      "web": "Verkkosivu"
+    },
+    "projects": {
+      "delfincheckin": {
+        "name": "Delfín Check-in",
+        "description": "Majoitusalan SaaS: varaukset, digitaalinen check-in, kustannuslaskuri ja verotusvienti — kaikki ammattimaisesta paneelista.",
+        "tags": ["SaaS", "Majoitus", "Paneeli"]
+      },
+      "mario": {
+        "name": "Mario Personal Trainer",
+        "description": "Premium personal trainer -sivusto verkkovarauksilla, treenikalenterilla, laskutuksella ja CMS:llä etusivun muokkaamiseen ilman koodausta.",
+        "tags": ["Fitness", "Varaukset", "CMS"]
+      },
+      "rafa": {
+        "name": "Rafa Romera",
+        "description": "Artistin verkkosivu biografialla, Spotify-integraatiolla, kuuntelijatilastoilla ja tyylikkäällä tummalla designilla.",
+        "tags": ["Artisti", "Musiikki", "Verkkosivu"]
+      }
+    }
   },
   "footer": {
     "tagline": "Verkkosivut hallintapaneelilla yrityksille, jotka haluavat kasvaa.",

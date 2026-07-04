@@ -12,12 +12,11 @@ import { HowItWorks } from "./HowItWorks";
 import { Pricing } from "./Pricing";
 import { Services } from "./Services";
 import { Billing } from "./Billing";
+import { Portfolio } from "./Portfolio";
 import { CTABanner } from "./CTABanner";
 import { LeadForm } from "./LeadForm";
 import { FAQ } from "./FAQ";
 import { Footer } from "./Footer";
-
-const SITE_VERSION = "kotisivut-fi-v3";
 
 interface LandingPageProps {
   dict: Dictionary;
@@ -36,15 +35,13 @@ export function LandingPage({ dict, locale }: LandingPageProps) {
 
   return (
     <>
-      <div className="bg-teal-700 py-1.5 text-center text-xs font-semibold text-white">
-        WebsMil {SITE_VERSION} — {dict.nav.services} + {dict.nav.billing} activos
-      </div>
       <Header dict={dict} locale={locale} />
       <main>
         <Hero dict={dict} />
         <Benefits dict={dict} />
         <Showcase dict={dict} />
         <HowItWorks dict={dict} />
+        <Portfolio dict={dict} />
 
         {/* Precios + servicios + facturación en bloque continuo */}
         <Pricing dict={dict} locale={locale} onSelectPlan={handleSelectPlan} />

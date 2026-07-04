@@ -11,6 +11,7 @@
     "faq": "FAQ",
     "billing": "Billing",
     "services": "Services",
+    "portfolio": "Portfolio",
     "cta": "Request info"
   },
   "hero": {
@@ -281,6 +282,34 @@
         "answer": "We centralize in one panel tasks that normally require multiple tools (Excel, WhatsApp, email, calendars), reducing management time."
       }
     ]
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "title": "Projects we've built",
+    "subtitle": "Real websites with management panels, bookings and custom design. Click to visit each project.",
+    "visitSite": "Visit website",
+    "shotTypes": {
+      "landing": "Landing page",
+      "dashboard": "Admin panel",
+      "web": "Website"
+    },
+    "projects": {
+      "delfincheckin": {
+        "name": "Delfín Check-in",
+        "description": "Hospitality SaaS: bookings, digital check-in, cost calculator and tax export — all from a professional dashboard.",
+        "tags": ["SaaS", "Hospitality", "Dashboard"]
+      },
+      "mario": {
+        "name": "Mario Personal Trainer",
+        "description": "Premium personal trainer site with online booking, training calendar, invoicing and a CMS to edit the landing without code.",
+        "tags": ["Fitness", "Bookings", "CMS"]
+      },
+      "rafa": {
+        "name": "Rafa Romera",
+        "description": "Artist website with biography, Spotify integration, listener stats and an elegant dark design.",
+        "tags": ["Artist", "Music", "Website"]
+      }
+    }
   },
   "footer": {
     "tagline": "Websites with dashboard for businesses that want to grow.",
