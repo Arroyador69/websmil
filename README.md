@@ -70,14 +70,21 @@ Lista leads (requiere header `Authorization: Bearer {ADMIN_SECRET}`).
 
 ## Deploy en Vercel
 
-1. Conecta el repo [github.com/Arroyador69/websmil](https://github.com/Arroyador69/websmil)
-2. Añade **Vercel Postgres** desde el dashboard (Storage → Create → Postgres)
-3. Configura las variables de entorno
-4. Deploy automático en cada push a `main`
+Proyecto en producción: **https://websmil.vercel.app**
+
+1. En [vercel.com](https://vercel.com) → Import → repo `Arroyador69/websmil` → rama `main`
+2. Root Directory: `.` (raíz del repo, no otra carpeta)
+3. Cada push a `main` despliega automáticamente vía integración Git de Vercel
+
+Deploy manual si hiciera falta:
+
+```bash
+npx vercel@latest --prod
+```
 
 ## CI
 
-GitHub Actions ejecuta lint + build en cada push y PR a `main`.
+GitHub Actions ejecuta **lint + build** en cada push y PR a `main`. El deploy lo hace Vercel directamente (no requiere secrets en GitHub).
 
 ## Roadmap
 
