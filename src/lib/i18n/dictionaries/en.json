@@ -288,6 +288,8 @@
     "title": "Projects we've built",
     "subtitle": "Real websites with management panels, bookings and custom design. Click to visit each project.",
     "visitSite": "Visit website",
+    "expandImage": "Expand image",
+    "closeImage": "Close image",
     "shotTypes": {
       "landing": "Landing page",
       "dashboard": "Admin panel",

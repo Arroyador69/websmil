@@ -36,6 +36,7 @@ export const portfolioProjects: PortfolioProject[] = [
     shots: [
       { src: "/portfolio/rafa-bio.png", type: "web" },
       { src: "/portfolio/rafa-music.png", type: "web" },
+      { src: "/portfolio/rafa-discografia.png", type: "web" },
     ],
   },
 ];

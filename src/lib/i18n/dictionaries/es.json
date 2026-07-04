@@ -288,6 +288,8 @@
     "title": "Proyectos que hemos desarrollado",
     "subtitle": "Webs reales con panel de gestión, reservas y diseño a medida. Haz clic para visitar cada proyecto.",
     "visitSite": "Visitar web",
+    "expandImage": "Ampliar imagen",
+    "closeImage": "Cerrar imagen",
     "shotTypes": {
       "landing": "Landing page",
       "dashboard": "Panel admin",

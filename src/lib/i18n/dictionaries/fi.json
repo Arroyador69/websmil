@@ -311,6 +311,8 @@
     "title": "Tekemämme projektit",
     "subtitle": "Oikeita verkkosivuja hallintapaneeleilla, varauksilla ja räätälöidyllä designilla. Klikkaa vieraillaksesi kussakin projektissa.",
     "visitSite": "Vieraile sivustolla",
+    "expandImage": "Suurenna kuva",
+    "closeImage": "Sulje kuva",
     "shotTypes": {
       "landing": "Etusivu",
       "dashboard": "Hallintapaneeli",
