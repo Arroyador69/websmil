@@ -17,7 +17,7 @@ import { LeadForm } from "./LeadForm";
 import { FAQ } from "./FAQ";
 import { Footer } from "./Footer";
 
-const SITE_VERSION = "7337f3c-services-v2";
+const SITE_VERSION = "kotisivut-fi-v3";
 
 interface LandingPageProps {
   dict: Dictionary;

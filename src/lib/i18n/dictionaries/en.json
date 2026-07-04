@@ -96,7 +96,7 @@
     "oneTime": "one-time",
     "cta": "Request this plan",
     "moreInfo": "More information",
-    "scrollToServices": "See additional services and billing ↓",
+    "scrollToServices": "See graphic design, logo and more services ↓",
     "plans": {
       "essential": {
         "name": "Essential",
@@ -162,40 +162,6 @@
     "subtitle": "Beyond dashboard websites, we help with graphic design, logos and your brand's visual presence.",
     "cta": "Request a quote",
     "categories": [
-      {
-        "name": "Websites",
-        "items": [
-          {
-            "name": "Website 1–3 content pages",
-            "description": "Includes design work: homepage, 1–3 content pages, contact page and basic SEO.",
-            "price": "€900–1300",
-            "priceNote": "Request a quote"
-          },
-          {
-            "name": "Website — larger project",
-            "description": "A more extensive website tailored to your business needs.",
-            "price": "€1400",
-            "priceNote": "Prices from, request a quote"
-          },
-          {
-            "name": "Website and online shop",
-            "description": "Website with integrated online shop — sell products or services online.",
-            "price": "€1300",
-            "priceNote": "Prices from, request a quote"
-          }
-        ]
-      },
-      {
-        "name": "Maintenance",
-        "items": [
-          {
-            "name": "Webnode site maintenance",
-            "description": "Maintenance, updates and changes for existing Webnode sites.",
-            "price": "€70/h",
-            "priceNote": "Hourly rate"
-          }
-        ]
-      },
       {
         "name": "Graphic design",
         "items": [
