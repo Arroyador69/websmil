@@ -57,6 +57,11 @@ export function Footer({ dict, locale }: FooterProps) {
 
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-sm">
           © {new Date().getFullYear()} WebsMil. {dict.footer.rights}
+          {process.env.NEXT_PUBLIC_BUILD_ID && (
+            <span className="mt-2 block text-xs text-slate-600">
+              build {process.env.NEXT_PUBLIC_BUILD_ID.slice(0, 7)}
+            </span>
+          )}
         </div>
       </div>
     </footer>
