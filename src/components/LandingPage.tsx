@@ -17,6 +17,8 @@ import { LeadForm } from "./LeadForm";
 import { FAQ } from "./FAQ";
 import { Footer } from "./Footer";
 
+const SITE_VERSION = "7337f3c-services-v2";
+
 interface LandingPageProps {
   dict: Dictionary;
   locale: Locale;
@@ -34,15 +36,21 @@ export function LandingPage({ dict, locale }: LandingPageProps) {
 
   return (
     <>
+      <div className="bg-teal-700 py-1.5 text-center text-xs font-semibold text-white">
+        WebsMil {SITE_VERSION} — {dict.nav.services} + {dict.nav.billing} activos
+      </div>
       <Header dict={dict} locale={locale} />
       <main>
         <Hero dict={dict} />
         <Benefits dict={dict} />
         <Showcase dict={dict} />
         <HowItWorks dict={dict} />
+
+        {/* Precios + servicios + facturación en bloque continuo */}
         <Pricing dict={dict} locale={locale} onSelectPlan={handleSelectPlan} />
         <Services dict={dict} />
         <Billing dict={dict} />
+
         <CTABanner dict={dict} />
         <section id="contact" className="bg-white px-4 py-20 sm:px-6 sm:py-28">
           <div className="mx-auto max-w-xl">
