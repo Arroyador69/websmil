@@ -10,6 +10,7 @@
     "showcase": "Dashboard",
     "faq": "FAQ",
     "billing": "Billing",
+    "services": "Services",
     "cta": "Request info"
   },
   "hero": {
@@ -153,6 +154,100 @@
     "title": "Ready to digitise your business?",
     "subtitle": "Tell us what you need and we'll prepare a personalised proposal within 24 hours. No commitment.",
     "button": "Request free information"
+  },
+  "services": {
+    "label": "Additional services",
+    "title": "We also offer these services",
+    "subtitle": "Beyond dashboard websites, we help with graphic design, logos and your brand's visual presence.",
+    "cta": "Request a quote",
+    "categories": [
+      {
+        "name": "Websites",
+        "items": [
+          {
+            "name": "Website 1–3 content pages",
+            "description": "Includes design work: homepage, 1–3 content pages, contact page and basic SEO.",
+            "price": "€900–1300",
+            "priceNote": "Request a quote"
+          },
+          {
+            "name": "Website — larger project",
+            "description": "A more extensive website tailored to your business needs.",
+            "price": "€1400",
+            "priceNote": "Prices from, request a quote"
+          },
+          {
+            "name": "Website and online shop",
+            "description": "Website with integrated online shop — sell products or services online.",
+            "price": "€1300",
+            "priceNote": "Prices from, request a quote"
+          }
+        ]
+      },
+      {
+        "name": "Maintenance",
+        "items": [
+          {
+            "name": "Webnode site maintenance",
+            "description": "Maintenance, updates and changes for existing Webnode sites.",
+            "price": "€70/h",
+            "priceNote": "Hourly rate"
+          }
+        ]
+      },
+      {
+        "name": "Graphic design",
+        "items": [
+          {
+            "name": "Graphic design",
+            "description": "Advertising and marketing materials aligned with your brand.",
+            "price": "€150",
+            "priceNote": "Prices from"
+          },
+          {
+            "name": "Large format prints",
+            "description": "Posters, roll-ups and other large-format prints in various sizes.",
+            "price": "€150",
+            "priceNote": "Prices from"
+          },
+          {
+            "name": "Business card design",
+            "description": "Professional business card design aligned with your brand.",
+            "price": "€100",
+            "priceNote": "Prices from"
+          }
+        ]
+      },
+      {
+        "name": "Logo",
+        "items": [
+          {
+            "name": "Logo design — simple",
+            "description": "Simple logo without symbol (text only).",
+            "price": "€350",
+            "priceNote": ""
+          },
+          {
+            "name": "Logo design — logo + symbol",
+            "description": "Logo with symbol (visual element) as a complete set.",
+            "price": "€450",
+            "priceNote": ""
+          },
+          {
+            "name": "Logo vectorisation",
+            "description": "Vectorisation of an existing logo. Complex cases priced hourly or as a package.",
+            "price": "€70/h",
+            "priceNote": "Hourly rate"
+          },
+          {
+            "name": "AI-generated logo vectorisation",
+            "description": "Professional vectorisation of AI-created logos. Price depends on colours, complexity, etc.",
+            "price": "€400",
+            "priceNote": "Prices from"
+          }
+        ]
+      }
+    ]
   },
   "billing": {
     "label": "Billing",

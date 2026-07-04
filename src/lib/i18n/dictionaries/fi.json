@@ -10,6 +10,7 @@
     "showcase": "Paneeli",
     "faq": "UKK",
     "billing": "Laskutus",
+    "services": "Lisäpalvelut",
     "cta": "Pyydä tietoja"
   },
   "hero": {
@@ -153,6 +154,100 @@
     "title": "Valmis digitointiin liiketoimintasi?",
     "subtitle": "Kerro tarpeistasi ja valmistelemme henkilökohtaisen tarjouksen 24 tunnin kuluessa. Ilman sitoumusta.",
     "button": "Pyydä ilmaista tietoa"
+  },
+  "services": {
+    "label": "Lisäpalvelut",
+    "title": "Myös näitä palveluita tarjoamme",
+    "subtitle": "Verkkosivujen, graafisen suunnittelun ja logon suunnittelun lisäksi voimme auttaa brändisi ja digitaalisen näkyvyyden kanssa.",
+    "cta": "Pyydä tarjous",
+    "categories": [
+      {
+        "name": "Verkkosivut",
+        "items": [
+          {
+            "name": "Kotisivut 1–3 sisältösivua",
+            "description": "Sisältää suunnittelutyön: etusivu, 1–3 sisältösivua ja yhteystietosivu sekä perusmuotoisen hakukoneoptimoinnin.",
+            "price": "900–1300 €",
+            "priceNote": "Kysy tarjous"
+          },
+          {
+            "name": "Kotisivut — isompi kokonaisuus",
+            "description": "Laajempi verkkosivukokonaisuus yrityksellesi räätälöitynä.",
+            "price": "1400 €",
+            "priceNote": "Hinnat alkaen, kysy tarjous"
+          },
+          {
+            "name": "Kotisivut ja verkkokauppa",
+            "description": "Verkkosivut yhdistettynä verkkokauppaan — myy tuotteitasi tai palveluitasi verkossa.",
+            "price": "1300 €",
+            "priceNote": "Hinnat alkaen, kysy tarjous"
+          }
+        ]
+      },
+      {
+        "name": "Ylläpito",
+        "items": [
+          {
+            "name": "Webnode-sivuston ylläpito",
+            "description": "Olemassa olevan Webnode-sivuston ylläpito, päivitykset ja muutokset.",
+            "price": "70 €/t",
+            "priceNote": "Tuntiveloitteisesti"
+          }
+        ]
+      },
+      {
+        "name": "Graafinen suunnittelu",
+        "items": [
+          {
+            "name": "Graafinen suunnittelu",
+            "description": "Mainos- ja markkinointimateriaalit brändisi mukaisesti.",
+            "price": "150 €",
+            "priceNote": "Hinnat alkaen"
+          },
+          {
+            "name": "Suurkuvat",
+            "description": "Eri kokoiset julisteet, roll-upit ja muut suurkuvatulosteet.",
+            "price": "150 €",
+            "priceNote": "Hinnat alkaen"
+          },
+          {
+            "name": "Käyntikortin suunnittelu",
+            "description": "Ammattimainen käyntikortin suunnittelu brändisi mukaisesti.",
+            "price": "100 €",
+            "priceNote": "Hinnat alkaen"
+          }
+        ]
+      },
+      {
+        "name": "Logo",
+        "items": [
+          {
+            "name": "Logon suunnittelu — yksinkertainen",
+            "description": "Yksinkertainen logo ilman liikemerkkiä (pelkkä teksti).",
+            "price": "350 €",
+            "priceNote": ""
+          },
+          {
+            "name": "Logon suunnittelu — logo + liikemerkki",
+            "description": "Logo ja liikemerkki (visuaalinen elementti) kokonaisuutena.",
+            "price": "450 €",
+            "priceNote": ""
+          },
+          {
+            "name": "Logon vektorointi",
+            "description": "Olemassa olevan logon vektorointi. Monimutkaisissa tapauksissa hinta arvioidaan tapauskohtaisesti tunti- tai pakettihintana.",
+            "price": "70 €/t",
+            "priceNote": "Tuntiveloitteisesti"
+          },
+          {
+            "name": "AI:lla tehdyn logon vektorointi",
+            "description": "Tekoälyllä luodun logon ammattimainen vektorointi. Hinta riippuu kuvasta: värit, monimutkaisuus ym.",
+            "price": "400 €",
+            "priceNote": "Hinnat alkaen"
+          }
+        ]
+      }
+    ]
   },
   "billing": {
     "label": "Laskutuksesta",

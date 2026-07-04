@@ -10,6 +10,7 @@ import { Benefits } from "./Benefits";
 import { Showcase } from "./Showcase";
 import { HowItWorks } from "./HowItWorks";
 import { Pricing } from "./Pricing";
+import { Services } from "./Services";
 import { Billing } from "./Billing";
 import { CTABanner } from "./CTABanner";
 import { LeadForm } from "./LeadForm";
@@ -40,6 +41,7 @@ export function LandingPage({ dict, locale }: LandingPageProps) {
         <Showcase dict={dict} />
         <HowItWorks dict={dict} />
         <Pricing dict={dict} locale={locale} onSelectPlan={handleSelectPlan} />
+        <Services dict={dict} />
         <Billing dict={dict} />
         <CTABanner dict={dict} />
         <section id="contact" className="bg-white px-4 py-20 sm:px-6 sm:py-28">
