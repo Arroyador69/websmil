@@ -7,17 +7,40 @@
     "benefits": "Hyödyt",
     "pricing": "Hinnat",
     "howItWorks": "Miten se toimii",
+    "showcase": "Paneeli",
     "faq": "UKK",
     "cta": "Pyydä tietoja"
   },
   "hero": {
     "badge": "Verkkosivut + hallintapaneeli yrityksille",
-    "title": "Järjestä liiketoimintasi räätälöidyllä verkkosivulla ja paneelilla",
+    "title": "Järjestä liiketoimintasi räätälöidyllä",
+    "titleHighlight": "verkkosivulla ja paneelilla",
     "subtitle": "Rakennamme ammattimaisia verkkosivuja integroiduilla hallintapaneeleilla, jotta voit hallita asiakkaita, varauksia, tehtäviä ja mittareita yhdestä paikasta.",
     "stat": "Jopa 30 % vähemmän aikaa",
     "statLabel": "päivittäiseen organisointiin ja hallintaan",
     "ctaPrimary": "Katso paketit",
-    "ctaSecondary": "Pyydä lisätietoja"
+    "ctaSecondary": "Pyydä lisätietoja",
+    "trusted": "Ammattimainen ratkaisu pk-yrityksille ja yrittäjille"
+  },
+  "stats": {
+    "items": [
+      { "value": "30%", "label": "vähemmän aikaa hallintoon" },
+      { "value": "3", "label": "sinulle räätälöityä pakettia" },
+      { "value": "24h", "label": "taattu vastausaika" },
+      { "value": "100%", "label": "verkkosivuston omistajuus" }
+    ]
+  },
+  "showcase": {
+    "label": "Hallintapaneeli",
+    "title": "Liiketoimintasi näkyvillä ja hallinnassa",
+    "subtitle": "Räätälöity hallintapaneeli, jossa hallitset asiakkaita, varauksia, mittareita ja verkkosivusi sisältöä — kaikki yhdestä paikasta, millä tahansa laitteella.",
+    "features": [
+      "Reaaliaikaiset mittarit ja tilastot",
+      "Asiakkaiden, tapaamisten ja tilausten hallinta",
+      "Sisällön muokkaus ilman teknistä osaamista",
+      "Turvallinen pääsy mobiilista, tabletista tai tietokoneesta"
+    ],
+    "imageAlt": "Ammattilainen hallitsee liiketoimintaansa hallintapaneelilla"
   },
   "benefits": {
     "title": "Miksi WebsMil",
@@ -125,6 +148,11 @@
       }
     }
   },
+  "ctaBanner": {
+    "title": "Valmis digitointiin liiketoimintasi?",
+    "subtitle": "Kerro tarpeistasi ja valmistelemme henkilökohtaisen tarjouksen 24 tunnin kuluessa. Ilman sitoumusta.",
+    "button": "Pyydä ilmaista tietoa"
+  },
   "form": {
     "title": "Pyydä lisätietoja",
     "subtitle": "Jätä sähköpostisi ja otamme yhteyttä 24 tunnin kuluessa.",
@@ -155,7 +183,7 @@
     "items": [
       {
         "question": "Mitä hallintapaneeli sisältää?",
-        "answer": "Yksityinen paneeli, jossa hallitset liiketoimintaasi: asiakkaat, tapaamiset, tilaukset, tilastot ja muuta pakettisi mukaan. Käytettävissä millä tahansa laitteella."
+        "answer": "Verkkosivujen hallintapaneeli on käyttöliittymä, jonka kautta voit ylläpitää sivustosi sisältöä, asetuksia, verkkotunnuksia ja tietoturvaa. Teemme sinulle yritystoimintasi tarpeita vastaavan kustomoidun käyttöliittymän, jossa voit hallita liiketoimintaasi: asiakkaat, tapaamiset, tilaukset, tilastot ja muuta pakettisi mukaan. Käytettävissä millä tahansa laitteella."
       },
       {
         "question": "Kuinka kauan toimitus kestää?",
@@ -167,7 +195,7 @@
       },
       {
         "question": "Sisältyvätkö domain ja hosting?",
-        "answer": "Kyllä, ensimmäinen vuosi hostingia ja SSL-sertifikaatti sisältyvät kaikkiin paketteihin. Autamme domainin kanssa."
+        "answer": "Kyllä, ensimmäinen vuosi hostingia ja SSL-sertifikaatti sisältyvät kaikkiin paketteihin. Autamme domainin kanssa. Toisesta vuodesta alkaen hosting maksaa noin 12–17 €/kk ja domainin uusiminen noin 10–15 €/vuosi (riippuen päätteestä, esim. .fi tai .com). Voit jatkaa kanssamme tai siirtää sivuston omaan hostingiisi — kaikki jää sinulle."
       },
       {
         "question": "Miten 30 % säästö toimii?",

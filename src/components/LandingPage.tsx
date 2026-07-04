@@ -7,8 +7,10 @@ import type { Locale } from "@/lib/i18n/config";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
 import { Benefits } from "./Benefits";
+import { Showcase } from "./Showcase";
 import { HowItWorks } from "./HowItWorks";
 import { Pricing } from "./Pricing";
+import { CTABanner } from "./CTABanner";
 import { LeadForm } from "./LeadForm";
 import { FAQ } from "./FAQ";
 import { Footer } from "./Footer";
@@ -34,9 +36,11 @@ export function LandingPage({ dict, locale }: LandingPageProps) {
       <main>
         <Hero dict={dict} />
         <Benefits dict={dict} />
+        <Showcase dict={dict} />
         <HowItWorks dict={dict} />
         <Pricing dict={dict} locale={locale} onSelectPlan={handleSelectPlan} />
-        <section id="contact" className="bg-slate-50 px-4 py-20 sm:px-6">
+        <CTABanner dict={dict} />
+        <section id="contact" className="bg-white px-4 py-20 sm:px-6 sm:py-28">
           <div className="mx-auto max-w-xl">
             <LeadForm key={formKey} dict={dict} locale={locale} selectedPlan={selectedPlan} />
           </div>

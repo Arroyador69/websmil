@@ -7,17 +7,40 @@
     "benefits": "Benefits",
     "pricing": "Pricing",
     "howItWorks": "How it works",
+    "showcase": "Dashboard",
     "faq": "FAQ",
     "cta": "Request info"
   },
   "hero": {
     "badge": "Websites + Dashboard for businesses",
-    "title": "Organize your business with a custom website and dashboard",
+    "title": "Organize your business with a custom",
+    "titleHighlight": "website and dashboard",
     "subtitle": "We build professional websites with integrated control panels so you can manage clients, bookings, tasks and metrics from one place.",
     "stat": "Up to 30% less time",
     "statLabel": "on daily organization and management",
     "ctaPrimary": "View plans",
-    "ctaSecondary": "Request information"
+    "ctaSecondary": "Request information",
+    "trusted": "Professional solution for SMEs and freelancers"
+  },
+  "stats": {
+    "items": [
+      { "value": "30%", "label": "less time on management" },
+      { "value": "3", "label": "plans tailored to you" },
+      { "value": "24h", "label": "guaranteed response" },
+      { "value": "100%", "label": "website ownership" }
+    ]
+  },
+  "showcase": {
+    "label": "Control panel",
+    "title": "Your business, visible and under control",
+    "subtitle": "A customised dashboard where you manage clients, bookings, metrics and website content — all from one place, on any device.",
+    "features": [
+      "Real-time metrics and statistics",
+      "Client, appointment and order management",
+      "Content editing without technical knowledge",
+      "Secure access from mobile, tablet or desktop"
+    ],
+    "imageAlt": "Professional managing their business with dashboard"
   },
   "benefits": {
     "title": "Why WebsMil",
@@ -125,6 +148,11 @@
       }
     }
   },
+  "ctaBanner": {
+    "title": "Ready to digitise your business?",
+    "subtitle": "Tell us what you need and we'll prepare a personalised proposal within 24 hours. No commitment.",
+    "button": "Request free information"
+  },
   "form": {
     "title": "Request more information",
     "subtitle": "Leave your email and we'll contact you within 24 hours.",
@@ -155,7 +183,7 @@
     "items": [
       {
         "question": "What's included in the dashboard?",
-        "answer": "A private panel where you manage your business: clients, appointments, orders, statistics and more, depending on your plan. Accessible from any device."
+        "answer": "The website admin panel is the interface through which you maintain your site's content, settings, domain and security. We build a customised interface tailored to your business needs, where you manage clients, appointments, orders, statistics and more according to your plan. Accessible from any device."
       },
       {
         "question": "How long does delivery take?",
@@ -167,7 +195,7 @@
       },
       {
         "question": "Is domain and hosting included?",
-        "answer": "Yes, the first year of hosting and SSL certificate are included in all plans. We help you with the domain."
+        "answer": "Yes, the first year of hosting and SSL certificate are included in all plans. We help you with the domain. From the second year onwards, hosting costs approximately €12–17/month and domain renewal around €10–15/year (depending on extension, e.g. .com or .fi). You can stay with us or move the site to your own hosting — everything remains yours."
       },
       {
         "question": "How does the 30% savings work?",

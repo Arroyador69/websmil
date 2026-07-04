@@ -8,23 +8,53 @@ interface FooterProps {
 }
 
 export function Footer({ dict, locale }: FooterProps) {
+  const links = [
+    { href: "#benefits", label: dict.nav.benefits },
+    { href: "#showcase", label: dict.nav.showcase },
+    { href: "#pricing", label: dict.nav.pricing },
+    { href: "#faq", label: dict.nav.faq },
+    { href: "#contact", label: dict.footer.contact },
+  ];
+
   return (
-    <footer className="border-t border-slate-200 bg-slate-900 px-4 py-12 text-slate-400 sm:px-6">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 sm:flex-row">
-        <div className="text-center sm:text-left">
-          <Link href={`/${locale}`} className="text-lg font-bold text-white">
-            Webs<span className="text-teal-400">Mil</span>
-          </Link>
-          <p className="mt-2 text-sm">{dict.footer.tagline}</p>
+    <footer className="border-t border-slate-800 bg-slate-950 px-4 py-14 text-slate-400 sm:px-6">
+      <div className="mx-auto max-w-6xl">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+          <div>
+            <Link href={`/${locale}`} className="text-xl font-bold text-white">
+              Webs<span className="text-teal-400">Mil</span>
+            </Link>
+            <p className="mt-3 max-w-xs text-sm leading-relaxed">{dict.footer.tagline}</p>
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-slate-500">Links</p>
+            <ul className="mt-4 space-y-2">
+              {links.map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} className="text-sm transition hover:text-teal-400">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-wider text-slate-500">
+              {dict.footer.contact}
+            </p>
+            <a
+              href="#contact"
+              className="mt-4 inline-flex text-sm font-medium text-teal-400 transition hover:text-teal-300"
+            >
+              {dict.nav.cta} →
+            </a>
+          </div>
         </div>
-        <div className="text-center text-sm sm:text-right">
-          <a
-            href="#contact"
-            className="font-medium text-teal-400 hover:text-teal-300"
-          >
-            {dict.footer.contact}
-          </a>
-          <p className="mt-2">© {new Date().getFullYear()} WebsMil. {dict.footer.rights}</p>
+
+        <div className="mt-12 border-t border-slate-800 pt-8 text-center text-sm">
+          © {new Date().getFullYear()} WebsMil. {dict.footer.rights}
         </div>
       </div>
     </footer>

@@ -7,17 +7,40 @@
     "benefits": "Beneficios",
     "pricing": "Precios",
     "howItWorks": "Cómo funciona",
+    "showcase": "Dashboard",
     "faq": "FAQ",
     "cta": "Solicitar info"
   },
   "hero": {
     "badge": "Webs + Dashboard para empresas",
-    "title": "Organiza tu negocio con una web y dashboard a medida",
+    "title": "Organiza tu negocio con una web y",
+    "titleHighlight": "dashboard a medida",
     "subtitle": "Creamos webs profesionales con panel de control integrado para que gestiones clientes, reservas, tareas y métricas desde un solo lugar.",
     "stat": "Hasta un 30% menos de tiempo",
     "statLabel": "en organización y gestión diaria",
     "ctaPrimary": "Ver planes",
-    "ctaSecondary": "Solicitar información"
+    "ctaSecondary": "Solicitar información",
+    "trusted": "Solución profesional para pymes y autónomos"
+  },
+  "stats": {
+    "items": [
+      { "value": "30%", "label": "menos tiempo en gestión" },
+      { "value": "3", "label": "planes adaptados a ti" },
+      { "value": "24h", "label": "respuesta garantizada" },
+      { "value": "100%", "label": "web en tu propiedad" }
+    ]
+  },
+  "showcase": {
+    "label": "Panel de control",
+    "title": "Tu negocio, visible y bajo control",
+    "subtitle": "Un dashboard personalizado donde gestionas clientes, reservas, métricas y contenido de tu web — todo desde un solo lugar, en cualquier dispositivo.",
+    "features": [
+      "Métricas y estadísticas en tiempo real",
+      "Gestión de clientes, citas y pedidos",
+      "Edición de contenido sin conocimientos técnicos",
+      "Acceso seguro desde móvil, tablet u ordenador"
+    ],
+    "imageAlt": "Profesional gestionando su negocio con dashboard"
   },
   "benefits": {
     "title": "Por qué WebsMil",
@@ -125,6 +148,11 @@
       }
     }
   },
+  "ctaBanner": {
+    "title": "¿Listo para digitalizar tu negocio?",
+    "subtitle": "Cuéntanos qué necesitas y te preparamos una propuesta personalizada en menos de 24 horas. Sin compromiso.",
+    "button": "Solicitar información gratis"
+  },
   "form": {
     "title": "Solicita más información",
     "subtitle": "Déjanos tu email y te contactamos en menos de 24 horas.",
@@ -155,7 +183,7 @@
     "items": [
       {
         "question": "¿Qué incluye el dashboard?",
-        "answer": "Un panel privado donde gestionas tu negocio: clientes, citas, pedidos, estadísticas y más, según el plan elegido. Accesible desde cualquier dispositivo."
+        "answer": "El panel de control de tu web es la interfaz desde la que mantienes el contenido, ajustes, dominio y seguridad de tu sitio. Creamos una interfaz personalizada adaptada a las necesidades de tu negocio, donde gestionas clientes, citas, pedidos, estadísticas y más según tu plan. Accesible desde cualquier dispositivo."
       },
       {
         "question": "¿Cuánto tarda la entrega?",
@@ -167,7 +195,7 @@
       },
       {
         "question": "¿El dominio y hosting están incluidos?",
-        "answer": "Sí, el primer año de hosting y certificado SSL están incluidos en todos los planes. Te ayudamos con el dominio."
+        "answer": "Sí, el primer año de hosting y certificado SSL están incluidos en todos los planes. Te ayudamos con el dominio. A partir del segundo año, el hosting cuesta aproximadamente 12–17 €/mes y la renovación del dominio unos 10–15 €/año (según extensión, p. ej. .es o .com). Puedes continuar con nosotros o trasladar la web a tu propio hosting — todo queda en tu propiedad."
       },
       {
         "question": "¿Cómo funciona el ahorro del 30%?",
