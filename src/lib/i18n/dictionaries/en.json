@@ -96,6 +96,7 @@
     "oneTime": "one-time",
     "cta": "Request this plan",
     "moreInfo": "More information",
+    "scrollToServices": "See additional services and billing ↓",
     "plans": {
       "essential": {
         "name": "Essential",
@@ -235,7 +236,7 @@
           },
           {
             "name": "Logo vectorisation",
-            "description": "Vectorisation of an existing logo. Complex cases priced hourly or as a package.",
+            "description": "Vectorisation of an existing logo. For complex, highly detailed logos, pricing is assessed case by case hourly or as a package.",
             "price": "€70/h",
             "priceNote": "Hourly rate"
           },

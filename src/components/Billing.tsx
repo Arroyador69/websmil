@@ -6,7 +6,7 @@ interface BillingProps {
 
 export function Billing({ dict }: BillingProps) {
   return (
-    <section id="billing" className="bg-slate-50 px-4 py-20 sm:px-6 sm:py-28">
+    <section id="billing" className="scroll-mt-24 bg-slate-50 px-4 py-20 sm:px-6 sm:py-28">
       <div className="mx-auto max-w-4xl">
         <div className="text-center">
           <span className="section-label">{dict.billing.label}</span>

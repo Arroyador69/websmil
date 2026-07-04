@@ -9,8 +9,6 @@ interface FooterProps {
 
 export function Footer({ dict, locale }: FooterProps) {
   const links = [
-    { href: "#benefits", label: dict.nav.benefits },
-    { href: "#showcase", label: dict.nav.showcase },
     { href: "#pricing", label: dict.nav.pricing },
     { href: "#services", label: dict.nav.services },
     { href: "#billing", label: dict.nav.billing },

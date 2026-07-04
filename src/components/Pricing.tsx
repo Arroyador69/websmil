@@ -101,6 +101,15 @@ export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
             );
           })}
         </div>
+
+        <div className="mt-12 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <a
+            href="#services"
+            className="inline-flex items-center gap-2 rounded-xl border-2 border-teal-200 bg-teal-50 px-6 py-3 text-sm font-semibold text-teal-800 transition hover:border-teal-300 hover:bg-teal-100"
+          >
+            {dict.pricing.scrollToServices}
+          </a>
+        </div>
       </div>
     </section>
   );

@@ -96,6 +96,7 @@
     "oneTime": "pago único",
     "cta": "Solicitar este plan",
     "moreInfo": "Más información",
+    "scrollToServices": "Ver servicios adicionales y facturación ↓",
     "plans": {
       "essential": {
         "name": "Esencial",
@@ -235,7 +236,7 @@
           },
           {
             "name": "Vectorización de logo",
-            "description": "Vectorización de logo existente. En casos complejos el precio se evalúa por horas o paquete.",
+            "description": "Vectorización de logo existente. Si el logo es complejo y con muchos detalles, el precio se evalúa caso a caso por horas o paquete.",
             "price": "70 €/h",
             "priceNote": "Por horas"
           },

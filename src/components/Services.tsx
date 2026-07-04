@@ -7,7 +7,7 @@ interface ServicesProps {
 
 export function Services({ dict }: ServicesProps) {
   return (
-    <section id="services" className="relative overflow-hidden bg-slate-900 px-4 py-20 sm:px-6 sm:py-28">
+    <section id="services" className="relative scroll-mt-24 overflow-hidden bg-slate-900 px-4 py-20 sm:px-6 sm:py-28">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_rgba(20,184,166,0.12),_transparent_60%)]" />
       <div className="relative mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">

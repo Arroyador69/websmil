@@ -96,6 +96,7 @@
     "oneTime": "kertamaksu",
     "cta": "Pyydä tätä pakettia",
     "moreInfo": "Lisätietoja",
+    "scrollToServices": "Katso lisäpalvelut ja laskutus ↓",
     "plans": {
       "essential": {
         "name": "Perus",
@@ -165,20 +166,20 @@
         "name": "Verkkosivut",
         "items": [
           {
-            "name": "Kotisivut 1–3 sisältösivua",
-            "description": "Sisältää suunnittelutyön: etusivu, 1–3 sisältösivua ja yhteystietosivu sekä perusmuotoisen hakukoneoptimoinnin.",
+            "name": "Kotisivut 1 - 3 sisältösivua",
+            "description": "Sisältää suunnittelutyön: etusivu, 1-3 sisältösivua ja yhteystietosivu sekä perusmuotoisen hakukoneoptimoinnin.",
             "price": "900–1300 €",
             "priceNote": "Kysy tarjous"
           },
           {
-            "name": "Kotisivut — isompi kokonaisuus",
+            "name": "Kotisivut isompi kokonaisuus",
             "description": "Laajempi verkkosivukokonaisuus yrityksellesi räätälöitynä.",
             "price": "1400 €",
             "priceNote": "Hinnat alkaen, kysy tarjous"
           },
           {
             "name": "Kotisivut ja verkkokauppa",
-            "description": "Verkkosivut yhdistettynä verkkokauppaan — myy tuotteitasi tai palveluitasi verkossa.",
+            "description": "Verkkosivut yhdistettynä verkkokauppaan.",
             "price": "1300 €",
             "priceNote": "Hinnat alkaen, kysy tarjous"
           }
@@ -214,7 +215,7 @@
             "name": "Käyntikortin suunnittelu",
             "description": "Ammattimainen käyntikortin suunnittelu brändisi mukaisesti.",
             "price": "100 €",
-            "priceNote": "Hinnat alkaen"
+            "priceNote": "Alkaen"
           }
         ]
       },
@@ -229,19 +230,19 @@
           },
           {
             "name": "Logon suunnittelu — logo + liikemerkki",
-            "description": "Logo ja liikemerkki (visuaalinen elementti) kokonaisuutena.",
+            "description": "Logo + liikemerkki (visuaalinen elementti).",
             "price": "450 €",
             "priceNote": ""
           },
           {
             "name": "Logon vektorointi",
-            "description": "Olemassa olevan logon vektorointi. Monimutkaisissa tapauksissa hinta arvioidaan tapauskohtaisesti tunti- tai pakettihintana.",
+            "description": "Olemassa olevan logon vektorointi. Mikäli kyseessä monimutkainen ja paljon yksityiskohtia sisältävä logo, hinta arvioidaan tapauskohtaisesti joko tuntiveloitteisena tai pakettihintana.",
             "price": "70 €/t",
             "priceNote": "Tuntiveloitteisesti"
           },
           {
             "name": "AI:lla tehdyn logon vektorointi",
-            "description": "Tekoälyllä luodun logon ammattimainen vektorointi. Hinta riippuu kuvasta: värit, monimutkaisuus ym.",
+            "description": "Riippuen kuvasta (värit, monimutkaisuus ym.), hinnat alkaen.",
             "price": "400 €",
             "priceNote": "Hinnat alkaen"
           }
