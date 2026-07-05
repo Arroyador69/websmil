@@ -22,9 +22,10 @@
     "ctaPrimary": "Ver planes",
     "ctaSecondary": "Ver referencias",
     "trusted": "Diseño a medida para pymes y autónomos",
-    "imageSrc": "/portfolio/mario-landing.png",
-    "imageAlt": "Landing page profesional de Mario Personal Trainer",
-    "imageUrl": "marioentrenadorpersonal.pro"
+    "imageSrc": "/portfolio/rafa-hero.png",
+    "imageAlt": "Web de artista Rafa Romera — vídeo y discografía",
+    "imageUrl": "rafaromera.info",
+    "imagePosition": "center 18%"
   },
   "stats": {
     "items": [

@@ -43,6 +43,7 @@ export function Hero({ dict }: HeroProps) {
               src={dict.hero.imageSrc}
               alt={dict.hero.imageAlt}
               url={dict.hero.imageUrl}
+              objectPosition={dict.hero.imagePosition}
               priority
             />
           </div>

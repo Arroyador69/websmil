@@ -6,6 +6,7 @@ interface BrowserFrameProps {
   url?: string;
   className?: string;
   priority?: boolean;
+  objectPosition?: string;
 }
 
 export function BrowserFrame({
@@ -14,6 +15,7 @@ export function BrowserFrame({
   url = "tunegocio.com",
   className = "",
   priority = false,
+  objectPosition = "center top",
 }: BrowserFrameProps) {
   return (
     <div className={`relative ${className}`}>
@@ -34,7 +36,8 @@ export function BrowserFrame({
             alt={alt}
             fill
             sizes="(max-width: 640px) 92vw, (max-width: 1024px) 50vw, 540px"
-            className="object-cover object-top"
+            className="object-cover"
+            style={{ objectPosition }}
             priority={priority}
           />
         </div>

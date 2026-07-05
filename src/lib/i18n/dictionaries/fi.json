@@ -22,9 +22,10 @@
     "ctaPrimary": "Katso paketit",
     "ctaSecondary": "Katso referenssit",
     "trusted": "Räätälöity design pk-yrityksille ja yrittäjille",
-    "imageSrc": "/portfolio/mario-landing.png",
-    "imageAlt": "Ammattimainen landing page — Mario Personal Trainer",
-    "imageUrl": "marioentrenadorpersonal.pro"
+    "imageSrc": "/portfolio/rafa-hero.png",
+    "imageAlt": "Rafa Romeran artistin verkkosivu — video ja diskografia",
+    "imageUrl": "rafaromera.info",
+    "imagePosition": "center 18%"
   },
   "stats": {
     "items": [
