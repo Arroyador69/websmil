@@ -18,7 +18,7 @@ export function Footer({ dict, locale }: FooterProps) {
   ];
 
   return (
-    <footer className="border-t border-slate-800 bg-slate-950 px-4 py-14 text-slate-400 sm:px-6">
+    <footer className="border-t border-slate-800 bg-slate-950 px-4 py-10 pb-[max(2.5rem,env(safe-area-inset-bottom))] text-slate-400 sm:px-6 sm:py-14">
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           <div>
@@ -33,7 +33,7 @@ export function Footer({ dict, locale }: FooterProps) {
             <ul className="mt-4 space-y-2">
               {links.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} className="text-sm transition hover:text-teal-400">
+                  <a href={link.href} className="inline-flex min-h-10 items-center text-sm transition hover:text-teal-400">
                     {link.label}
                   </a>
                 </li>

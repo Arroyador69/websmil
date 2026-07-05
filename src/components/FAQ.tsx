@@ -11,14 +11,14 @@ export function FAQ({ dict }: FAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="bg-slate-50 px-4 py-20 sm:px-6 sm:py-28">
+    <section id="faq" className="section-anchor bg-slate-50 px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-3xl">
         <div className="text-center">
           <span className="section-label">{dict.faq.title}</span>
           <h2 className="section-title mt-4">{dict.faq.title}</h2>
         </div>
 
-        <dl className="mt-12 space-y-3">
+        <dl className="mt-8 space-y-3 sm:mt-12">
           {dict.faq.items.map((item, index) => {
             const isOpen = openIndex === index;
             return (
@@ -34,9 +34,9 @@ export function FAQ({ dict }: FAQProps) {
                   <button
                     type="button"
                     onClick={() => setOpenIndex(isOpen ? null : index)}
-                    className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
+                    className="flex w-full touch-manipulation items-center justify-between gap-3 px-4 py-4 text-left sm:gap-4 sm:px-6 sm:py-5"
                   >
-                    <span className="text-base font-semibold text-slate-900">{item.question}</span>
+                    <span className="text-sm font-semibold text-slate-900 sm:text-base">{item.question}</span>
                     <span
                       className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition ${
                         isOpen ? "bg-teal-600 text-white" : "bg-slate-100 text-slate-500"
@@ -55,7 +55,7 @@ export function FAQ({ dict }: FAQProps) {
                   </button>
                 </dt>
                 {isOpen && (
-                  <dd className="border-t border-slate-100 px-6 pb-5 pt-4 text-sm leading-relaxed text-slate-600">
+                  <dd className="border-t border-slate-100 px-4 pb-4 pt-3 text-sm leading-relaxed text-pretty text-slate-600 sm:px-6 sm:pb-5 sm:pt-4">
                     {item.answer}
                   </dd>
                 )}

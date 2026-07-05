@@ -49,7 +49,7 @@ export function LandingPage({ dict, locale }: LandingPageProps) {
         <Billing dict={dict} />
 
         <CTABanner dict={dict} />
-        <section id="contact" className="bg-white px-4 py-20 sm:px-6 sm:py-28">
+        <section id="contact" className="section-anchor bg-white px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
           <div className="mx-auto max-w-xl">
             <LeadForm key={formKey} dict={dict} locale={locale} selectedPlan={selectedPlan} />
           </div>

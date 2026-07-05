@@ -44,7 +44,7 @@ export function Portfolio({ dict }: PortfolioProps) {
 
   return (
     <>
-      <section id="portfolio" className="bg-slate-50 px-4 py-20 sm:px-6 sm:py-28">
+      <section id="portfolio" className="section-anchor bg-slate-50 px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
         <div className="mx-auto max-w-6xl">
           <div className="mx-auto max-w-2xl text-center">
             <span className="section-label">{dict.portfolio.label}</span>
@@ -52,28 +52,28 @@ export function Portfolio({ dict }: PortfolioProps) {
             <p className="section-subtitle">{dict.portfolio.subtitle}</p>
           </div>
 
-          <div className="mt-16 space-y-10">
+          <div className="mt-10 space-y-8 sm:mt-16 sm:space-y-10">
             {portfolioProjects.map((project) => {
               const info = dict.portfolio.projects[project.id];
 
               return (
                 <article
                   key={project.id}
-                  className="overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-sm transition hover:shadow-md hover:shadow-teal-600/5"
+                  className="overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-sm"
                 >
-                  <div className="flex flex-col gap-4 border-b border-slate-100 p-6 sm:flex-row sm:items-start sm:justify-between sm:p-8">
+                  <div className="flex flex-col gap-4 border-b border-slate-100 p-4 sm:flex-row sm:items-start sm:justify-between sm:p-8">
                     <div className="min-w-0 flex-1">
-                      <h3 className="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl">
+                      <h3 className="text-lg font-bold tracking-tight text-slate-900 sm:text-2xl">
                         {info.name}
                       </h3>
-                      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
+                      <p className="mt-2 text-sm leading-relaxed text-pretty text-slate-600 sm:text-base">
                         {info.description}
                       </p>
-                      <div className="mt-4 flex flex-wrap gap-2">
+                      <div className="mt-3 flex flex-wrap gap-2 sm:mt-4">
                         {info.tags.map((tag) => (
                           <span
                             key={tag}
-                            className="rounded-full bg-teal-50 px-3 py-1 text-xs font-medium text-teal-700"
+                            className="rounded-full bg-teal-50 px-2.5 py-0.5 text-xs font-medium text-teal-700 sm:px-3 sm:py-1"
                           >
                             {tag}
                           </span>
@@ -85,10 +85,10 @@ export function Portfolio({ dict }: PortfolioProps) {
                       href={project.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex shrink-0 items-center gap-2 rounded-xl border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm font-semibold text-teal-700 transition hover:border-teal-300 hover:bg-teal-100"
+                      className="inline-flex min-h-11 w-full touch-manipulation items-center justify-center gap-2 rounded-xl border border-teal-200 bg-teal-50 px-4 py-2.5 text-sm font-semibold text-teal-700 transition hover:border-teal-300 hover:bg-teal-100 active:scale-[0.98] sm:w-auto sm:shrink-0"
                     >
                       {dict.portfolio.visitSite}
-                      <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -98,19 +98,20 @@ export function Portfolio({ dict }: PortfolioProps) {
                     </a>
                   </div>
 
-                  <div className="grid gap-4 p-4 sm:grid-cols-2 sm:p-6 lg:grid-cols-3">
+                  {/* Mobile: horizontal scroll · Desktop: grid */}
+                  <div className="scrollbar-hide -mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-4 pt-4 sm:mx-0 sm:grid sm:snap-none sm:grid-cols-2 sm:gap-4 sm:overflow-visible sm:p-6 lg:grid-cols-3">
                     {project.shots.map((shot) => {
                       const alt = `${info.name} — ${dict.portfolio.shotTypes[shot.type]}`;
 
                       return (
                         <figure
                           key={shot.src}
-                          className="group relative overflow-hidden rounded-xl border border-slate-200/80 bg-slate-100"
+                          className="group relative w-[85vw] max-w-sm shrink-0 snap-center overflow-hidden rounded-xl border border-slate-200/80 bg-slate-100 sm:w-auto sm:max-w-none"
                         >
                           <button
                             type="button"
                             onClick={() => setLightbox({ src: shot.src, alt, type: shot.type })}
-                            className="relative block w-full cursor-zoom-in text-left"
+                            className="relative block w-full touch-manipulation text-left"
                             aria-label={dict.portfolio.expandImage}
                           >
                             <div className="relative aspect-[16/10]">
@@ -118,21 +119,21 @@ export function Portfolio({ dict }: PortfolioProps) {
                                 src={shot.src}
                                 alt={alt}
                                 fill
-                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                className="object-cover object-top transition duration-300 group-hover:scale-[1.02]"
+                                sizes="(max-width: 640px) 85vw, (max-width: 1024px) 50vw, 33vw"
+                                className="object-cover object-top transition duration-300 sm:group-hover:scale-[1.02]"
                               />
                             </div>
-                            <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-slate-900/0 transition group-hover:bg-slate-900/20">
-                              <span className="scale-90 rounded-full bg-white/90 p-2 opacity-0 shadow-lg transition group-hover:scale-100 group-hover:opacity-100">
-                                <svg className="h-5 w-5 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <div className="pointer-events-none absolute inset-0 flex items-end justify-end p-3 sm:items-center sm:justify-center sm:bg-slate-900/0 sm:transition sm:group-hover:bg-slate-900/20">
+                              <span className="rounded-full bg-white/95 p-2 shadow-lg sm:scale-90 sm:opacity-0 sm:transition sm:group-hover:scale-100 sm:group-hover:opacity-100">
+                                <svg className="h-4 w-4 text-slate-700 sm:h-5 sm:w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                                 </svg>
                               </span>
                             </div>
                           </button>
-                          <figcaption className="pointer-events-none absolute left-3 top-3">
+                          <figcaption className="pointer-events-none absolute left-2 top-2 sm:left-3 sm:top-3">
                             <span
-                              className={`rounded-md px-2.5 py-1 text-xs font-semibold shadow-sm backdrop-blur-sm ${shotBadgeClass[shot.type]}`}
+                              className={`rounded-md px-2 py-0.5 text-[10px] font-semibold shadow-sm backdrop-blur-sm sm:px-2.5 sm:py-1 sm:text-xs ${shotBadgeClass[shot.type]}`}
                             >
                               {dict.portfolio.shotTypes[shot.type]}
                             </span>
@@ -150,7 +151,8 @@ export function Portfolio({ dict }: PortfolioProps) {
 
       {lightbox && (
         <div
-          className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-950/90 p-4 backdrop-blur-sm sm:p-8"
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-slate-950/95 p-3 backdrop-blur-sm sm:p-6"
+          style={{ paddingTop: "max(0.75rem, env(safe-area-inset-top))", paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
           onClick={closeLightbox}
           role="dialog"
           aria-modal="true"
@@ -159,7 +161,8 @@ export function Portfolio({ dict }: PortfolioProps) {
           <button
             type="button"
             onClick={closeLightbox}
-            className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition hover:bg-white/20 sm:right-6 sm:top-6"
+            className="absolute right-3 top-3 z-10 flex h-11 w-11 touch-manipulation items-center justify-center rounded-full bg-white/15 text-white transition hover:bg-white/25 sm:right-5 sm:top-5"
+            style={{ top: "max(0.75rem, env(safe-area-inset-top))" }}
             aria-label={dict.portfolio.closeImage}
           >
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -168,11 +171,11 @@ export function Portfolio({ dict }: PortfolioProps) {
           </button>
 
           <div
-            className="relative max-h-[90vh] w-full max-w-6xl overflow-hidden rounded-xl shadow-2xl"
+            className="relative max-h-[85dvh] w-full max-w-6xl overflow-auto rounded-lg shadow-2xl sm:max-h-[90dvh] sm:rounded-xl"
             onClick={(e) => e.stopPropagation()}
           >
             <span
-              className={`absolute left-4 top-4 z-10 rounded-md px-2.5 py-1 text-xs font-semibold shadow-sm ${shotBadgeClass[lightbox.type]}`}
+              className={`absolute left-3 top-3 z-10 rounded-md px-2 py-0.5 text-[10px] font-semibold shadow-sm sm:left-4 sm:top-4 sm:px-2.5 sm:py-1 sm:text-xs ${shotBadgeClass[lightbox.type]}`}
             >
               {dict.portfolio.shotTypes[lightbox.type]}
             </span>
@@ -180,7 +183,7 @@ export function Portfolio({ dict }: PortfolioProps) {
             <img
               src={lightbox.src}
               alt={lightbox.alt}
-              className="max-h-[90vh] w-full object-contain"
+              className="h-auto max-h-[85dvh] w-full object-contain sm:max-h-[90dvh]"
             />
           </div>
         </div>

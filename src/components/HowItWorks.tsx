@@ -6,7 +6,7 @@ interface HowItWorksProps {
 
 export function HowItWorks({ dict }: HowItWorksProps) {
   return (
-    <section id="how-it-works" className="bg-slate-50 px-4 py-20 sm:px-6 sm:py-28">
+    <section id="how-it-works" className="section-anchor bg-slate-50 px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <span className="section-label">{dict.howItWorks.title}</span>
@@ -14,7 +14,7 @@ export function HowItWorks({ dict }: HowItWorksProps) {
           <p className="section-subtitle">{dict.howItWorks.subtitle}</p>
         </div>
 
-        <div className="relative mt-16">
+        <div className="relative mt-10 sm:mt-16">
           <div className="absolute left-0 right-0 top-5 hidden h-0.5 bg-gradient-to-r from-transparent via-teal-300 to-transparent lg:block" />
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {dict.howItWorks.steps.map((step, index) => (

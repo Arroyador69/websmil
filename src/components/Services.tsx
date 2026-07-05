@@ -7,7 +7,7 @@ interface ServicesProps {
 
 export function Services({ dict }: ServicesProps) {
   return (
-    <section id="services" className="scroll-mt-24 border-t-4 border-teal-500 bg-white px-4 py-16 sm:px-6 sm:py-20">
+    <section id="services" className="section-anchor scroll-mt-24 border-t-4 border-teal-500 bg-white px-4 py-12 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-6xl">
         <div className="rounded-2xl border-2 border-teal-200 bg-teal-50 px-6 py-4 text-center">
           <p className="text-sm font-bold uppercase tracking-wider text-teal-800">
@@ -37,11 +37,11 @@ export function Services({ dict }: ServicesProps) {
                     key={item.name}
                     className="group flex flex-col rounded-2xl border border-slate-200 bg-slate-50 p-6 transition hover:border-teal-300 hover:shadow-md"
                   >
-                    <div className="flex items-start justify-between gap-3">
+                    <div className="flex flex-col items-start gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-3">
                       <h4 className="text-base font-semibold leading-snug text-slate-900">
                         {item.name}
                       </h4>
-                      <span className="shrink-0 rounded-lg bg-teal-600 px-2.5 py-1 text-sm font-bold text-white">
+                      <span className="shrink-0 rounded-lg bg-teal-600 px-2.5 py-1 text-xs font-bold text-white sm:text-sm">
                         {item.price}
                       </span>
                     </div>

@@ -66,12 +66,12 @@ export function LeadForm({ dict, locale, selectedPlan = "general" }: LeadFormPro
       onSubmit={handleSubmit}
       className="overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-xl shadow-slate-900/5"
     >
-      <div className="bg-gradient-to-r from-teal-600 to-teal-500 px-8 py-6">
+      <div className="bg-gradient-to-r from-teal-600 to-teal-500 px-5 py-5 sm:px-8 sm:py-6">
         <h3 className="text-xl font-bold text-white">{dict.form.title}</h3>
         <p className="mt-1 text-sm text-teal-100">{dict.form.subtitle}</p>
       </div>
 
-      <div className="p-8">
+      <div className="p-5 sm:p-8">
         {status === "error" && (
           <div className="mb-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
             {dict.form.errorMessage}
@@ -87,7 +87,7 @@ export function LeadForm({ dict, locale, selectedPlan = "general" }: LeadFormPro
               id="plan"
               value={plan}
               onChange={(e) => setPlan(e.target.value as PlanId)}
-              className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20"
+              className="input-field"
             >
               <option value="essential">{dict.form.planOptions.essential}</option>
               <option value="professional">{dict.form.planOptions.professional}</option>
@@ -107,7 +107,7 @@ export function LeadForm({ dict, locale, selectedPlan = "general" }: LeadFormPro
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder={dict.form.namePlaceholder}
-                className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20"
+                className="input-field"
               />
             </div>
             <div>
@@ -121,7 +121,7 @@ export function LeadForm({ dict, locale, selectedPlan = "general" }: LeadFormPro
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={dict.form.emailPlaceholder}
-                className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20"
+                className="input-field"
               />
             </div>
           </div>
@@ -136,7 +136,7 @@ export function LeadForm({ dict, locale, selectedPlan = "general" }: LeadFormPro
               value={company}
               onChange={(e) => setCompany(e.target.value)}
               placeholder={dict.form.companyPlaceholder}
-              className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20"
+              className="input-field"
             />
           </div>
 
@@ -150,7 +150,7 @@ export function LeadForm({ dict, locale, selectedPlan = "general" }: LeadFormPro
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder={dict.form.messagePlaceholder}
-              className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20"
+              className="input-field"
             />
           </div>
         </div>

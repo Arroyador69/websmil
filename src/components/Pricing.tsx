@@ -22,8 +22,8 @@ interface PricingProps {
 
 export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
   return (
-    <div id="pricing">
-      <section className="relative overflow-hidden bg-white px-4 py-20 sm:px-6 sm:py-28">
+    <div id="pricing" className="section-anchor">
+      <section className="relative overflow-hidden bg-white px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
         <div className="pointer-events-none absolute inset-0 bg-grid opacity-50" />
         <div className="relative mx-auto max-w-6xl">
           <div className="mx-auto max-w-2xl text-center">
@@ -32,7 +32,7 @@ export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
             <p className="section-subtitle">{dict.pricing.subtitle}</p>
           </div>
 
-          <div className="mt-16 grid gap-8 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:mt-16 sm:gap-8 lg:grid-cols-3">
             {planIds.map((planId) => {
               const plan = dict.pricing.plans[planId];
               const isPopular = planId === "professional";
@@ -47,7 +47,7 @@ export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
                   }`}
                 >
                   <div className={`h-1.5 bg-gradient-to-r ${planGradients[planId]}`} />
-                  <div className="flex flex-1 flex-col p-8">
+                  <div className="flex flex-1 flex-col p-5 sm:p-8">
                     {isPopular && (
                       <span className="mb-4 inline-flex w-fit rounded-full bg-teal-100 px-3 py-1 text-xs font-semibold text-teal-700">
                         {dict.pricing.popular}
@@ -76,7 +76,7 @@ export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
                       <button
                         type="button"
                         onClick={() => onSelectPlan(planId)}
-                        className={`w-full rounded-xl px-4 py-3.5 text-sm font-semibold transition ${
+                        className={`min-h-11 w-full touch-manipulation rounded-xl px-4 py-3.5 text-sm font-semibold transition active:scale-[0.98] ${
                           isPopular
                             ? "bg-gradient-to-r from-teal-600 to-teal-500 text-white shadow-lg shadow-teal-600/25 hover:from-teal-700 hover:to-teal-600"
                             : "bg-slate-900 text-white hover:bg-slate-800"
@@ -87,7 +87,7 @@ export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
                       <button
                         type="button"
                         onClick={() => onSelectPlan(planId)}
-                        className="w-full rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-medium text-slate-600 transition hover:border-teal-300 hover:text-teal-700"
+                        className="min-h-11 w-full touch-manipulation rounded-xl border border-slate-200 px-4 py-2.5 text-sm font-medium text-slate-600 transition hover:border-teal-300 hover:text-teal-700 active:scale-[0.98]"
                       >
                         {dict.pricing.moreInfo}
                       </button>
@@ -98,10 +98,10 @@ export function Pricing({ dict, locale, onSelectPlan }: PricingProps) {
             })}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-10 text-center sm:mt-12">
             <a
               href="#services"
-              className="inline-flex animate-pulse items-center gap-2 rounded-xl bg-teal-600 px-8 py-4 text-base font-bold text-white shadow-lg shadow-teal-600/30 transition hover:bg-teal-700"
+              className="inline-flex min-h-11 w-full touch-manipulation animate-pulse items-center justify-center gap-2 rounded-xl bg-teal-600 px-6 py-4 text-sm font-bold text-white shadow-lg shadow-teal-600/30 transition hover:bg-teal-700 active:scale-[0.98] sm:w-auto sm:px-8 sm:text-base"
             >
               {dict.pricing.scrollToServices}
             </a>

@@ -17,14 +17,25 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  text-size-adjust: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
+@supports (padding: max(0px)) {
+  body {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
 }
 
 /* Grid pattern background */
@@ -80,15 +91,26 @@ html {
 
 /* Section label */
 .section-label {
-  @apply inline-flex items-center gap-2 rounded-full border border-teal-200/80 bg-teal-50 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-teal-700;
+  @apply inline-flex max-w-full items-center gap-2 rounded-full border border-teal-200/80 bg-teal-50 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-teal-700 sm:px-4 sm:py-1.5 sm:text-xs;
 }
 
 .section-title {
-  @apply text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-[2.75rem] lg:leading-tight;
+  @apply text-2xl font-bold tracking-tight text-balance text-slate-900 sm:text-3xl sm:text-4xl lg:text-[2.75rem] lg:leading-tight;
 }
 
 .section-subtitle {
-  @apply mt-4 text-lg leading-relaxed text-slate-600;
+  @apply mt-3 text-base leading-relaxed text-pretty text-slate-600 sm:mt-4 sm:text-lg;
+}
+
+/* Anchor offset for sticky header */
+.section-anchor {
+  scroll-margin-top: 5.5rem;
+}
+
+@media (min-width: 640px) {
+  .section-anchor {
+    scroll-margin-top: 6rem;
+  }
 }
 
 /* Gradient text */
@@ -101,9 +123,24 @@ html {
 
 /* Primary button */
 .btn-primary {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-teal-600/25 transition hover:from-teal-700 hover:to-teal-600 hover:shadow-teal-600/30;
+  @apply inline-flex min-h-11 w-full touch-manipulation items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-teal-600 to-teal-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-teal-600/25 transition hover:from-teal-700 hover:to-teal-600 hover:shadow-teal-600/30 active:scale-[0.98] sm:min-h-0 sm:w-auto;
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-teal-300 hover:text-teal-700;
+  @apply inline-flex min-h-11 w-full touch-manipulation items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-teal-300 hover:text-teal-700 active:scale-[0.98] sm:min-h-0 sm:w-auto;
+}
+
+/* Mobile form inputs — 16px prevents iOS zoom on focus */
+.input-field {
+  @apply w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-base text-slate-900 placeholder:text-slate-400 focus:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500/20 sm:text-sm;
+}
+
+/* Hide scrollbar for horizontal scroll areas */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

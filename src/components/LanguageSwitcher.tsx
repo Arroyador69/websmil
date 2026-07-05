@@ -33,7 +33,7 @@ export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
           key={locale}
           type="button"
           onClick={() => switchLocale(locale)}
-          className={`rounded-full px-3 py-1 text-xs font-semibold transition-colors ${
+          className={`rounded-full px-2.5 py-1.5 text-xs font-semibold transition-colors touch-manipulation sm:px-3 ${
             locale === currentLocale
               ? "bg-teal-600 text-white"
               : "text-slate-600 hover:bg-slate-100"

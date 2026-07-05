@@ -7,7 +7,7 @@ interface BenefitsProps {
 
 export function Benefits({ dict }: BenefitsProps) {
   return (
-    <section id="benefits" className="bg-white px-4 py-20 sm:px-6 sm:py-28">
+    <section id="benefits" className="section-anchor bg-white px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-2xl text-center">
           <span className="section-label">{dict.benefits.title}</span>
@@ -15,7 +15,7 @@ export function Benefits({ dict }: BenefitsProps) {
           <p className="section-subtitle">{dict.benefits.subtitle}</p>
         </div>
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-4 sm:mt-16 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
           {dict.benefits.items.map((item, index) => {
             const Icon = benefitIcons[index];
             return (

@@ -6,7 +6,7 @@ interface BillingProps {
 
 export function Billing({ dict }: BillingProps) {
   return (
-    <section id="billing" className="scroll-mt-24 bg-slate-50 px-4 py-20 sm:px-6 sm:py-28">
+    <section id="billing" className="section-anchor scroll-mt-24 bg-slate-50 px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
       <div className="mx-auto max-w-4xl">
         <div className="text-center">
           <span className="section-label">{dict.billing.label}</span>
@@ -14,13 +14,13 @@ export function Billing({ dict }: BillingProps) {
         </div>
 
         <div className="mt-12 overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-lg shadow-slate-900/5">
-          <div className="border-b border-slate-100 bg-gradient-to-r from-teal-50 to-white px-8 py-6 sm:px-10">
+          <div className="border-b border-slate-100 bg-gradient-to-r from-teal-50 to-white px-5 py-5 sm:px-10 sm:py-6">
             <p className="text-base leading-relaxed text-slate-700 sm:text-lg">
               {dict.billing.intro}
             </p>
           </div>
 
-          <div className="px-8 py-8 sm:px-10 sm:py-10">
+          <div className="px-5 py-6 sm:px-10 sm:py-10">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-teal-700">
               {dict.billing.basicsTitle}
             </h3>

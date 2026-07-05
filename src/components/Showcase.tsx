@@ -8,18 +8,18 @@ interface ShowcaseProps {
 
 export function Showcase({ dict }: ShowcaseProps) {
   return (
-    <section id="showcase" className="relative overflow-hidden bg-slate-900 px-4 py-20 sm:px-6 sm:py-28">
+    <section id="showcase" className="section-anchor relative overflow-hidden bg-slate-900 px-4 py-14 sm:px-6 sm:py-24 lg:py-28">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(20,184,166,0.12),_transparent_60%)]" />
       <div className="relative mx-auto max-w-6xl">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <div>
-            <span className="inline-flex items-center rounded-full border border-teal-500/30 bg-teal-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-teal-400">
+        <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-2 lg:gap-16">
+          <div className="text-center lg:text-left">
+            <span className="inline-flex items-center rounded-full border border-teal-500/30 bg-teal-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-teal-400 sm:px-4 sm:py-1.5 sm:text-xs">
               {dict.showcase.label}
             </span>
-            <h2 className="mt-6 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold tracking-tight text-balance text-white sm:mt-6 sm:text-3xl lg:text-4xl">
               {dict.showcase.title}
             </h2>
-            <p className="mt-4 text-lg leading-relaxed text-slate-400">
+            <p className="mt-3 text-base leading-relaxed text-pretty text-slate-400 sm:mt-4 sm:text-lg">
               {dict.showcase.subtitle}
             </p>
 
@@ -34,7 +34,7 @@ export function Showcase({ dict }: ShowcaseProps) {
               ))}
             </ul>
 
-            <a href="#portfolio" className="btn-primary mt-10">
+            <a href="#portfolio" className="btn-primary mt-8 sm:mt-10">
               {dict.showcase.cta}
             </a>
           </div>
