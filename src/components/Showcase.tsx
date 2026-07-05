@@ -1,7 +1,6 @@
-import Image from "next/image";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 import { IconCheck } from "./icons";
-import { DashboardMockup } from "./DashboardMockup";
+import { BrowserFrame } from "./BrowserFrame";
 
 interface ShowcaseProps {
   dict: Dictionary;
@@ -10,7 +9,7 @@ interface ShowcaseProps {
 export function Showcase({ dict }: ShowcaseProps) {
   return (
     <section id="showcase" className="relative overflow-hidden bg-slate-900 px-4 py-20 sm:px-6 sm:py-28">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(20,184,166,0.15),_transparent_60%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(20,184,166,0.12),_transparent_60%)]" />
       <div className="relative mx-auto max-w-6xl">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
@@ -35,24 +34,17 @@ export function Showcase({ dict }: ShowcaseProps) {
               ))}
             </ul>
 
-            <a href="#pricing" className="btn-primary mt-10">
-              {dict.hero.ctaPrimary}
+            <a href="#portfolio" className="btn-primary mt-10">
+              {dict.showcase.cta}
             </a>
           </div>
 
-          <div className="space-y-4">
-            <div className="relative overflow-hidden rounded-2xl border border-slate-700/50">
-              <Image
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop"
-                alt={dict.showcase.imageAlt}
-                width={800}
-                height={320}
-                className="h-44 w-full object-cover sm:h-52"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent" />
-            </div>
-            <DashboardMockup />
-          </div>
+          <BrowserFrame
+            src={dict.showcase.imageSrc}
+            alt={dict.showcase.imageAlt}
+            url={dict.showcase.imageUrl}
+            className="shadow-teal-900/20"
+          />
         </div>
       </div>
     </section>

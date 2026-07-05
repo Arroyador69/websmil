@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "WebsMil — Webs con dashboard para empresas",
-    "description": "Webs profesionales con panel de control integrado. Ahorra hasta un 30% en tiempo y organización de tu negocio."
+    "title": "WebsMil — Webs profesionales para empresas",
+    "description": "Webs modernas, optimizadas para SEO y fáciles de actualizar. Diseño a medida con panel de gestión opcional."
   },
   "nav": {
     "benefits": "Beneficios",
@@ -15,55 +15,58 @@
     "cta": "Solicitar info"
   },
   "hero": {
-    "badge": "Webs + Dashboard para empresas",
-    "title": "Organiza tu negocio con una web y",
-    "titleHighlight": "dashboard a medida",
-    "subtitle": "Creamos webs profesionales con panel de control integrado para que gestiones clientes, reservas, tareas y métricas desde un solo lugar.",
-    "stat": "Hasta un 30% menos de tiempo",
-    "statLabel": "en organización y gestión diaria",
+    "badge": "Webs profesionales para empresas",
+    "title": "Haz crecer tu negocio con una",
+    "titleHighlight": "web moderna y profesional",
+    "subtitle": "Creamos webs optimizadas para SEO, fáciles de actualizar y gestionar, con panel integrado para clientes, reservas, tareas y métricas desde un mismo lugar.",
     "ctaPrimary": "Ver planes",
-    "ctaSecondary": "Solicitar información",
-    "trusted": "Solución profesional para pymes y autónomos"
+    "ctaSecondary": "Ver referencias",
+    "trusted": "Diseño a medida para pymes y autónomos",
+    "imageSrc": "/portfolio/mario-landing.png",
+    "imageAlt": "Landing page profesional de Mario Personal Trainer",
+    "imageUrl": "marioentrenadorpersonal.pro"
   },
   "stats": {
     "items": [
-      { "value": "30%", "label": "menos tiempo en gestión" },
+      { "value": "SEO", "label": "optimizado desde el inicio" },
       { "value": "3", "label": "planes adaptados a ti" },
       { "value": "24h", "label": "respuesta garantizada" },
       { "value": "100%", "label": "web en tu propiedad" }
     ]
   },
   "showcase": {
-    "label": "Panel de control",
-    "title": "Tu negocio, visible y bajo control",
-    "subtitle": "Un dashboard personalizado donde gestionas clientes, reservas, métricas y contenido de tu web — todo desde un solo lugar, en cualquier dispositivo.",
+    "label": "Función extra",
+    "title": "Actualiza tu web sin saber programar",
+    "subtitle": "Muchos de nuestros proyectos incluyen un panel sencillo para cambiar textos, imágenes y contenido — cuando lo necesites, sin complicaciones.",
     "features": [
-      "Métricas y estadísticas en tiempo real",
-      "Gestión de clientes, citas y pedidos",
-      "Edición de contenido sin conocimientos técnicos",
-      "Acceso seguro desde móvil, tablet u ordenador"
+      "Edita textos e imágenes desde el navegador",
+      "Sin conocimientos técnicos",
+      "Opcional según tu plan y necesidades"
     ],
-    "imageAlt": "Profesional gestionando su negocio con dashboard"
+    "cta": "Ver proyectos reales",
+    "imageSrc": "/portfolio/mario-dashboard.png",
+    "imageAlt": "Panel de gestión sencillo para actualizar la web",
+    "imageUrl": "panel.websmil.com"
   },
   "benefits": {
     "title": "Por qué WebsMil",
-    "subtitle": "No solo una web bonita: una herramienta que trabaja por ti cada día.",
+    "subtitle": "Vendemos webs bonitas, claras y fáciles de usar — con la funcionalidad que tu negocio necesita.",
     "items": [
       {
-        "title": "Todo en un solo panel",
-        "description": "Clientes, citas, pedidos y estadísticas accesibles desde tu dashboard personalizado."
+        "title": "Diseño que transmite confianza",
+        "description": "Webs visualmente cuidadas, adaptadas a tu sector y a la imagen de tu marca."
       },
       {
-        "title": "Ahorro real de tiempo",
-        "description": "Automatiza tareas repetitivas y reduce hasta un 30% el tiempo de gestión administrativa."
+        "title": "Fácil de actualizar",
+        "description": "Cambia contenido, textos e imágenes sin depender de nadie ni saber programar."
       },
       {
-        "title": "Lista para vender",
-        "description": "Diseño profesional, SEO optimizado y adaptada a móvil desde el primer día."
+        "title": "Lista para Google",
+        "description": "SEO básico incluido, diseño responsive y carga rápida desde el primer día."
       },
       {
-        "title": "Crece contigo",
-        "description": "Empieza con lo esencial y amplía módulos según crece tu negocio."
+        "title": "Panel cuando lo necesites",
+        "description": "Reservas, clientes o métricas en un panel sencillo — solo si tu negocio lo requiere."
       }
     ]
   },
@@ -278,15 +281,15 @@
         "answer": "Aplicamos pago anticipado: el trabajo se factura antes de entregar el proyecto, una vez aceptada la propuesta. Al iniciar reservamos tiempo en nuestro calendario. El anticipo funciona como reserva que compromete a ambas partes y garantiza tu compromiso con el proyecto."
       },
       {
-        "question": "¿Cómo funciona el ahorro del 30%?",
-        "answer": "Centralizamos en un solo panel tareas que normalmente requieren varias herramientas (Excel, WhatsApp, email, calendarios), reduciendo tiempo de gestión."
+        "question": "¿Puedo actualizar la web yo mismo?",
+        "answer": "Sí. Según tu plan, incluimos un panel sencillo para editar textos, imágenes y contenido básico sin conocimientos técnicos. Si prefieres, también podemos hacer los cambios por ti."
       }
     ]
   },
   "portfolio": {
     "label": "Referencias",
     "title": "Proyectos que hemos desarrollado",
-    "subtitle": "Webs reales con panel de gestión, reservas y diseño a medida. Haz clic para visitar cada proyecto.",
+    "subtitle": "Webs reales con diseño a medida. Haz clic en las imágenes para ampliarlas o visita cada proyecto.",
     "visitSite": "Visitar web",
     "expandImage": "Ampliar imagen",
     "closeImage": "Cerrar imagen",
@@ -298,17 +301,17 @@
     "projects": {
       "delfincheckin": {
         "name": "Delfín Check-in",
-        "description": "Software SaaS de gestión hotelera: reservas, check-in digital, calculadora de costes y exportación fiscal — todo desde un panel profesional.",
+        "description": "Web SaaS de hostelería con diseño profesional, reservas y panel de gestión integrado.",
         "tags": ["SaaS", "Hostelería", "Dashboard"]
       },
       "mario": {
         "name": "Mario Personal Trainer",
-        "description": "Web premium para entrenador personal con reservas online, calendario de entrenos, facturación y CMS para editar la landing sin código.",
+        "description": "Web premium para entrenador personal: diseño elegante, reservas online y panel sencillo para gestionar entrenos.",
         "tags": ["Fitness", "Reservas", "CMS"]
       },
       "rafa": {
         "name": "Rafa Romera",
-        "description": "Web de artista con biografía, integración Spotify, estadísticas de oyentes y diseño oscuro elegante.",
+        "description": "Web de artista con diseño oscuro elegante, biografía, Spotify integrado y estadísticas de oyentes.",
         "tags": ["Artista", "Música", "Web"]
       }
     }

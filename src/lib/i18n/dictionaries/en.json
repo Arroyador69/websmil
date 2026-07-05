@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "WebsMil — Business websites with dashboard",
-    "description": "Professional websites with integrated control panel. Save up to 30% on time and business organization."
+    "title": "WebsMil — Professional websites for businesses",
+    "description": "Modern, SEO-optimised and easy-to-update websites. Custom design with optional management panel."
   },
   "nav": {
     "benefits": "Benefits",
@@ -15,55 +15,58 @@
     "cta": "Request info"
   },
   "hero": {
-    "badge": "Websites + Dashboard for businesses",
-    "title": "Organize your business with a custom",
-    "titleHighlight": "website and dashboard",
-    "subtitle": "We build professional websites with integrated control panels so you can manage clients, bookings, tasks and metrics from one place.",
-    "stat": "Up to 30% less time",
-    "statLabel": "on daily organization and management",
+    "badge": "Professional websites for businesses",
+    "title": "Grow your business with a",
+    "titleHighlight": "modern, professional website",
+    "subtitle": "We build SEO-optimised, easy-to-update and manageable websites with integrated control panels so you can handle clients, bookings, tasks and metrics from one place.",
     "ctaPrimary": "View plans",
-    "ctaSecondary": "Request information",
-    "trusted": "Professional solution for SMEs and freelancers"
+    "ctaSecondary": "See our work",
+    "trusted": "Custom design for SMEs and freelancers",
+    "imageSrc": "/portfolio/mario-landing.png",
+    "imageAlt": "Professional landing page — Mario Personal Trainer",
+    "imageUrl": "marioentrenadorpersonal.pro"
   },
   "stats": {
     "items": [
-      { "value": "30%", "label": "less time on management" },
+      { "value": "SEO", "label": "optimised from day one" },
       { "value": "3", "label": "plans tailored to you" },
       { "value": "24h", "label": "guaranteed response" },
       { "value": "100%", "label": "website ownership" }
     ]
   },
   "showcase": {
-    "label": "Control panel",
-    "title": "Your business, visible and under control",
-    "subtitle": "A customised dashboard where you manage clients, bookings, metrics and website content — all from one place, on any device.",
+    "label": "Extra feature",
+    "title": "Update your site without coding",
+    "subtitle": "Many of our projects include a simple panel to edit text, images and content — when you need it, without unnecessary complexity.",
     "features": [
-      "Real-time metrics and statistics",
-      "Client, appointment and order management",
-      "Content editing without technical knowledge",
-      "Secure access from mobile, tablet or desktop"
+      "Edit text and images from your browser",
+      "No technical knowledge required",
+      "Optional depending on your plan and needs"
     ],
-    "imageAlt": "Professional managing their business with dashboard"
+    "cta": "See real projects",
+    "imageSrc": "/portfolio/mario-dashboard.png",
+    "imageAlt": "Simple management panel to update your website",
+    "imageUrl": "panel.websmil.com"
   },
   "benefits": {
     "title": "Why WebsMil",
-    "subtitle": "Not just a beautiful website — a tool that works for you every day.",
+    "subtitle": "We sell beautiful, clear and easy-to-use websites — with the features your business needs.",
     "items": [
       {
-        "title": "Everything in one panel",
-        "description": "Clients, appointments, orders and statistics accessible from your custom dashboard."
+        "title": "Design that builds trust",
+        "description": "Visually polished sites tailored to your industry and brand identity."
       },
       {
-        "title": "Real time savings",
-        "description": "Automate repetitive tasks and reduce administrative management time by up to 30%."
+        "title": "Easy to update",
+        "description": "Change content, text and images without depending on anyone or knowing how to code."
       },
       {
-        "title": "Ready to sell",
-        "description": "Professional design, optimized SEO and mobile-ready from day one."
+        "title": "Ready for Google",
+        "description": "Basic SEO included, responsive design and fast loading from day one."
       },
       {
-        "title": "Grows with you",
-        "description": "Start with the essentials and add modules as your business grows."
+        "title": "Panel when you need it",
+        "description": "Bookings, clients or metrics in a simple panel — only if your business requires it."
       }
     ]
   },
@@ -278,15 +281,15 @@
         "answer": "We use advance payment: work is invoiced before project delivery, once the proposal is accepted. When the project starts we reserve calendar time for your work. The advance acts as a reservation that commits both parties and ensures your commitment to the project."
       },
       {
-        "question": "How does the 30% savings work?",
-        "answer": "We centralize in one panel tasks that normally require multiple tools (Excel, WhatsApp, email, calendars), reducing management time."
+        "question": "Can I update the website myself?",
+        "answer": "Yes. Depending on your plan, we include a simple panel to edit text, images and basic content without technical knowledge. We can also make changes for you if you prefer."
       }
     ]
   },
   "portfolio": {
     "label": "Portfolio",
     "title": "Projects we've built",
-    "subtitle": "Real websites with management panels, bookings and custom design. Click to visit each project.",
+    "subtitle": "Real websites with custom design. Click images to enlarge or visit each project.",
     "visitSite": "Visit website",
     "expandImage": "Expand image",
     "closeImage": "Close image",
@@ -298,17 +301,17 @@
     "projects": {
       "delfincheckin": {
         "name": "Delfín Check-in",
-        "description": "Hospitality SaaS: bookings, digital check-in, cost calculator and tax export — all from a professional dashboard.",
+        "description": "Hospitality SaaS with professional design, bookings and integrated management panel.",
         "tags": ["SaaS", "Hospitality", "Dashboard"]
       },
       "mario": {
         "name": "Mario Personal Trainer",
-        "description": "Premium personal trainer site with online booking, training calendar, invoicing and a CMS to edit the landing without code.",
+        "description": "Premium personal trainer site: elegant design, online booking and a simple panel to manage sessions.",
         "tags": ["Fitness", "Bookings", "CMS"]
       },
       "rafa": {
         "name": "Rafa Romera",
-        "description": "Artist website with biography, Spotify integration, listener stats and an elegant dark design.",
+        "description": "Artist website with elegant dark design, biography, integrated Spotify and listener stats.",
         "tags": ["Artist", "Music", "Website"]
       }
     }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "WebsMil — Yritysverkkosivut hallintapaneelilla",
-    "description": "Ammattimaiset verkkosivut integroidulla hallintapaneelilla. Säästä jopa 30 % aikaa ja organisaatiossa."
+    "title": "WebsMil — Ammattimaiset verkkosivut yrityksille",
+    "description": "Nykyaikaiset, hakukoneoptimoidut ja helposti päivitettävät verkkosivut. Räätälöity design ja valinnainen hallintapaneeli."
   },
   "nav": {
     "benefits": "Hyödyt",
@@ -15,55 +15,58 @@
     "cta": "Pyydä tietoja"
   },
   "hero": {
-    "badge": "Verkkosivut + hallintapaneeli yrityksille",
-    "title": "Järjestä liiketoimintasi räätälöidyllä",
-    "titleHighlight": "verkkosivulla ja paneelilla",
-    "subtitle": "Rakennamme ammattimaisia verkkosivuja integroiduilla hallintapaneeleilla, jotta voit hallita asiakkaita, varauksia, tehtäviä ja mittareita yhdestä paikasta.",
-    "stat": "Jopa 30 % vähemmän aikaa",
-    "statLabel": "päivittäiseen organisointiin ja hallintaan",
+    "badge": "Ammattimaiset verkkosivut yrityksille",
+    "title": "Kasvata liiketoimintaasi",
+    "titleHighlight": "nykyaikaisella verkkosivustolla",
+    "subtitle": "Rakennamme hakukoneoptimoituja, helposti päivitettäviä sekä hallinnoitavia verkkosivustoja integroiduilla hallintapaneeleilla, jotta voit hallita asiakkaita, varauksia, tehtäviä ja mittareita yhdestä paikasta.",
     "ctaPrimary": "Katso paketit",
-    "ctaSecondary": "Pyydä lisätietoja",
-    "trusted": "Ammattimainen ratkaisu pk-yrityksille ja yrittäjille"
+    "ctaSecondary": "Katso referenssit",
+    "trusted": "Räätälöity design pk-yrityksille ja yrittäjille",
+    "imageSrc": "/portfolio/mario-landing.png",
+    "imageAlt": "Ammattimainen landing page — Mario Personal Trainer",
+    "imageUrl": "marioentrenadorpersonal.pro"
   },
   "stats": {
     "items": [
-      { "value": "30%", "label": "vähemmän aikaa hallintoon" },
+      { "value": "SEO", "label": "optimoitu alusta alkaen" },
       { "value": "3", "label": "sinulle räätälöityä pakettia" },
       { "value": "24h", "label": "taattu vastausaika" },
       { "value": "100%", "label": "verkkosivuston omistajuus" }
     ]
   },
   "showcase": {
-    "label": "Hallintapaneeli",
-    "title": "Liiketoimintasi näkyvillä ja hallinnassa",
-    "subtitle": "Räätälöity hallintapaneeli, jossa hallitset asiakkaita, varauksia, mittareita ja verkkosivusi sisältöä — kaikki yhdestä paikasta, millä tahansa laitteella.",
+    "label": "Lisäominaisuus",
+    "title": "Päivitä sivustosi ilman koodausta",
+    "subtitle": "Moni projektimme sisältää yksinkertaisen paneelin tekstien, kuvien ja sisällön muokkaamiseen — tarvittaessa, ilman turhaa monimutkaisuutta.",
     "features": [
-      "Reaaliaikaiset mittarit ja tilastot",
-      "Asiakkaiden, tapaamisten ja tilausten hallinta",
-      "Sisällön muokkaus ilman teknistä osaamista",
-      "Turvallinen pääsy mobiilista, tabletista tai tietokoneesta"
+      "Muokkaa tekstejä ja kuvia selaimesta",
+      "Ei teknistä osaamista tarvita",
+      "Valinnainen paketin ja tarpeidesi mukaan"
     ],
-    "imageAlt": "Ammattilainen hallitsee liiketoimintaansa hallintapaneelilla"
+    "cta": "Katso toteutetut projektit",
+    "imageSrc": "/portfolio/mario-dashboard.png",
+    "imageAlt": "Yksinkertainen hallintapaneeli verkkosivun päivittämiseen",
+    "imageUrl": "panel.websmil.com"
   },
   "benefits": {
     "title": "Miksi WebsMil",
-    "subtitle": "Ei vain kaunis verkkosivu — työkalu, joka työskentelee puolestasi joka päivä.",
+    "subtitle": "Myymme kauniita, selkeitä ja helppokäyttöisiä verkkosivuja — tarvitsemillasi toiminnoilla.",
     "items": [
       {
-        "title": "Kaikki yhdessä paneelissa",
-        "description": "Asiakkaat, tapaamiset, tilaukset ja tilastot käytettävissä räätälöidystä hallintapaneelistasi."
+        "title": "Design, joka herättää luottamusta",
+        "description": "Visuaalisesti huolelliset sivut, räätälöity toimialallesi ja brändillesi."
       },
       {
-        "title": "Todellinen ajan säästö",
-        "description": "Automatisoi toistuvat tehtävät ja vähennä hallinnollisen työn aikaa jopa 30 %."
+        "title": "Helppo päivittää",
+        "description": "Muokkaa sisältöä, tekstejä ja kuvia ilman ohjelmointiosaamista."
       },
       {
-        "title": "Valmis myyntiin",
-        "description": "Ammattimainen design, optimoitu SEO ja mobiiliystävällinen ensimmäisestä päivästä."
+        "title": "Valmis hakukoneille",
+        "description": "Perus-SEO mukana, responsiivinen design ja nopea lataus alusta alkaen."
       },
       {
-        "title": "Kasvaa kanssasi",
-        "description": "Aloita olennaisilla ja lisää moduuleja liiketoimintasi kasvaessa."
+        "title": "Paneeli tarvittaessa",
+        "description": "Varaukset, asiakkaat tai mittarit yksinkertaisessa paneelissa — vain jos liiketoimintasi sitä tarvitsee."
       }
     ]
   },
@@ -301,15 +304,15 @@
         "answer": "Noudatamme ennakkomaksukäytäntöä: työ veloitetaan ennen projektin luovuttamista, kun tarjous on hyväksytty. Heti projektin alkaessa varaamme kalenterista aikaa kyseiselle työlle. Ennakkomaksu toimii varausmaksuna, joka sitoo sekä tilaajan että toimittajan projektiin ja varmistaa asiakkaan sitoutumisen."
       },
       {
-        "question": "Miten 30 % säästö toimii?",
-        "answer": "Keskittämme yhteen paneeliin tehtävät, jotka normaalisti vaativat useita työkaluja (Excel, WhatsApp, sähköposti, kalenterit), vähentäen hallintaaikaa."
+        "question": "Voinko päivittää sivustoa itse?",
+        "answer": "Kyllä. Paketistasi riippuen mukana voi olla yksinkertainen paneeli tekstien, kuvien ja perussisällön muokkaamiseen ilman teknistä osaamista. Voimme myös tehdä muutokset puolestasi."
       }
     ]
   },
   "portfolio": {
     "label": "Referenssit",
     "title": "Tekemämme projektit",
-    "subtitle": "Oikeita verkkosivuja hallintapaneeleilla, varauksilla ja räätälöidyllä designilla. Klikkaa vieraillaksesi kussakin projektissa.",
+    "subtitle": "Oikeita verkkosivuja räätälöidyllä designilla. Klikkaa kuvia suurentaaksesi tai vieraile kussakin projektissa.",
     "visitSite": "Vieraile sivustolla",
     "expandImage": "Suurenna kuva",
     "closeImage": "Sulje kuva",
@@ -321,17 +324,17 @@
     "projects": {
       "delfincheckin": {
         "name": "Delfín Check-in",
-        "description": "Majoitusalan SaaS: varaukset, digitaalinen check-in, kustannuslaskuri ja verotusvienti — kaikki ammattimaisesta paneelista.",
+        "description": "Majoitusalan SaaS ammattimaisella designilla, varauksilla ja integroidulla hallintapaneelilla.",
         "tags": ["SaaS", "Majoitus", "Paneeli"]
       },
       "mario": {
         "name": "Mario Personal Trainer",
-        "description": "Premium personal trainer -sivusto verkkovarauksilla, treenikalenterilla, laskutuksella ja CMS:llä etusivun muokkaamiseen ilman koodausta.",
+        "description": "Premium personal trainer -sivusto: tyylikäs design, verkkovaraukset ja yksinkertainen paneeli treenien hallintaan.",
         "tags": ["Fitness", "Varaukset", "CMS"]
       },
       "rafa": {
         "name": "Rafa Romera",
-        "description": "Artistin verkkosivu biografialla, Spotify-integraatiolla, kuuntelijatilastoilla ja tyylikkäällä tummalla designilla.",
+        "description": "Artistin verkkosivu tyylikkäällä tummalla designilla, biografialla, Spotify-integraatiolla ja kuuntelijatilastoilla.",
         "tags": ["Artisti", "Musiikki", "Verkkosivu"]
       }
     }

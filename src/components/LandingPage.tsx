@@ -38,10 +38,10 @@ export function LandingPage({ dict, locale }: LandingPageProps) {
       <Header dict={dict} locale={locale} />
       <main>
         <Hero dict={dict} />
+        <Portfolio dict={dict} />
         <Benefits dict={dict} />
         <Showcase dict={dict} />
         <HowItWorks dict={dict} />
-        <Portfolio dict={dict} />
 
         {/* Precios + servicios + facturación en bloque continuo */}
         <Pricing dict={dict} locale={locale} onSelectPlan={handleSelectPlan} />

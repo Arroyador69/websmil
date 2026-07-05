@@ -1,5 +1,5 @@
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
-import { DashboardMockup } from "./DashboardMockup";
+import { BrowserFrame } from "./BrowserFrame";
 import { IconArrowRight } from "./icons";
 
 interface HeroProps {
@@ -8,10 +8,10 @@ interface HeroProps {
 
 export function Hero({ dict }: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-mesh bg-grid">
-      <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:py-28">
+    <section className="relative overflow-hidden bg-white">
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-slate-50 via-white to-white" />
+      <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          {/* Copy */}
           <div className="animate-fade-up text-center lg:text-left">
             <span className="section-label">{dict.hero.badge}</span>
             <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
@@ -27,7 +27,7 @@ export function Hero({ dict }: HeroProps) {
                 {dict.hero.ctaPrimary}
                 <IconArrowRight />
               </a>
-              <a href="#contact" className="btn-secondary">
+              <a href="#portfolio" className="btn-secondary">
                 {dict.hero.ctaSecondary}
               </a>
             </div>
@@ -35,15 +35,21 @@ export function Hero({ dict }: HeroProps) {
             <p className="mt-6 text-sm text-slate-500">{dict.hero.trusted}</p>
           </div>
 
-          {/* Dashboard mockup */}
-          <div className="animate-fade-up mx-auto w-full max-w-lg lg:max-w-none" style={{ animationDelay: "0.15s" }}>
-            <DashboardMockup />
+          <div
+            className="animate-fade-up mx-auto w-full max-w-lg lg:max-w-none"
+            style={{ animationDelay: "0.15s" }}
+          >
+            <BrowserFrame
+              src={dict.hero.imageSrc}
+              alt={dict.hero.imageAlt}
+              url={dict.hero.imageUrl}
+              priority
+            />
           </div>
         </div>
       </div>
 
-      {/* Stats bar */}
-      <div className="border-t border-slate-200/60 bg-white/60 backdrop-blur-sm">
+      <div className="relative border-t border-slate-200/60 bg-slate-50/80">
         <div className="mx-auto grid max-w-6xl grid-cols-2 divide-x divide-slate-200/60 sm:grid-cols-4">
           {dict.stats.items.map((stat) => (
             <div key={stat.label} className="px-4 py-6 text-center sm:py-8">
