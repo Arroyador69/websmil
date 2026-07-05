@@ -163,32 +163,9 @@
   "services": {
     "label": "Lisäpalvelut",
     "title": "Myös näitä palveluita tarjoamme",
-    "subtitle": "Kotisivut, graafinen suunnittelu ja logo — räätälöitynä yrityksellesi.",
+    "subtitle": "Graafinen suunnittelu ja logo — räätälöitynä yrityksellesi.",
     "cta": "Pyydä tarjous",
     "categories": [
-      {
-        "name": "Kotisivut",
-        "items": [
-          {
-            "name": "Kotisivut 1 - 3 sisältösivua",
-            "description": "Sisältää suunnittelutyön: etusivu, 1-3 sisältösivua ja yhteystietosivu sekä perusmuotoisen hakukoneoptimoinnin.",
-            "price": "900–1300 €",
-            "priceNote": "Kysy tarjous"
-          },
-          {
-            "name": "Kotisivut isompi kokonaisuus",
-            "description": "Laajempi verkkosivukokonaisuus yrityksellesi räätälöitynä.",
-            "price": "1400 €",
-            "priceNote": "Hinnat alkaen, kysy tarjous"
-          },
-          {
-            "name": "Kotisivut ja verkkokauppa",
-            "description": "Verkkosivut yhdistettynä verkkokauppaan.",
-            "price": "1300 €",
-            "priceNote": "Hinnat alkaen, kysy tarjous"
-          }
-        ]
-      },
       {
         "name": "Graafinen suunnittelu",
         "items": [
